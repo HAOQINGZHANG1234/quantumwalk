@@ -1,0 +1,4926 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass revtex4-1
+\options reprint,superscriptaddress,groupedaddress,pra,aps
+\use_default_options false
+\begin_modules
+subequations
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures false
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command bibtex
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "colorlinks,linkcolor=red,anchorcolor=black,citecolor=blue"
+\papersize letterpaper
+\use_geometry false
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type numerical
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+This is a template \SpecialChar LyX
+ file for articles to be submitted to the American Physical
+ Society (APS).
+ APS uses the \SpecialChar LaTeX
+ class REV\SpecialChar TeX
+ for submissions.
+ For general information about REV\SpecialChar TeX
+ and the latest author guide see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://journals.aps.org/revtex
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+The style of the document is specified by options in the document preamble!
+ For the right document class options, have a look at the elsarticle documentati
+on: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://journals.aps.org/files/revtex/summary4-1.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+This file uses the option 
+\family sans
+aps
+\family default
+ for the 
+\emph on
+American Physical Society
+\emph default
+ styling and the option 
+\family sans
+reprint
+\family default
+ for a layout close to the final journal.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Preprint
+APS/123-QED
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Use the Preprint layout to place your local institutional report number
+ in the upper righthand corner of the title page in preprint mode.
+ Multiple Preprint layouts are allowed.
+ Use the document class option 
+\family sans
+preprintnumbers
+\family default
+ under 
+\family sans
+Documents\SpecialChar menuseparator
+Settings
+\family default
+ to override the journal defaults to display numbers if necessary.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+Investigating the quench dynamics of the edge states of a spin-orbital coupling
+ system using a trapped ion
+\end_layout
+
+\begin_layout Thanks
+A footnote to the article title
+\end_layout
+
+\begin_layout Affiliation
+CAS Key Laboratory of Quantum Information, University of Science and Technology
+ of China, Hefei, 230026, People Republic of China.and CAS Center For Excellence
+ in Quantum Information and Quantum Physics,University of Science and Technology
+ of China, Hefei, 230026, People Republic of China.
+ 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+The Affiliation layout applies to all authors since the last Affiliation
+ layout.
+ The Affiliation layout should follow the other information.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+For the case that there is no affitilation use the \SpecialChar LaTeX
+ command 
+\series bold
+
+\backslash
+noaffiliation
+\series default
+ as \SpecialChar TeX
+
+\begin_inset space ~
+\end_inset
+
+code.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Collaboration
+MUSO Collaboration 
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+If desired one can use the document class option 
+\family sans
+superscriptaddress
+\family default
+ in 
+\family sans
+Documents\SpecialChar menuseparator
+Settings
+\family default
+ to associate authors with aliations via superscript numbers.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+today
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+prints the current date; should only be replaced for special cases
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+The quantum walk (QW), as the quantum analogue of classical random walk,
+ provides feasible platform to study topological phenomenon and non-equilibrium
+ dynamics.
+ Here, we propose a novel scheme to realize the quantum walk with a single
+ trapped ion where the phonon number space provides the natural boundary
+ of the QW.
+ In this scheme, the natural boundary offer the unique opportunity to investigat
+e the dynmaics of the edge states of the corresponding topological systems.
+ Paricularly, the quench dynamics of the edge state are  extensively studied
+ by tuning the local vacuum operator.
+ Our proposal offer a new approach to explore the character of the edge
+ states of the topological systems and the difference of the quench dynamics
+ of the edge states also offer the way to determine the boundary of differnt
+ phases of the system.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Description
+Usage Secondary publications and information retrieval purposes.
+\end_layout
+
+\begin_layout Description
+PACS
+\begin_inset space ~
+\end_inset
+
+numbers May be entered using the environment 
+\family sans
+PACS
+\begin_inset space ~
+\end_inset
+
+numbers
+\family default
+.
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Look at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.aip.org/pacs
+\end_layout
+
+\end_inset
+
+ to find an appropriate number.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Structure You may use the 
+\family typewriter
+Description
+\family default
+ environment to structure your abstract.
+\end_layout
+
+\end_deeper
+\begin_layout PACS
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Insert suggested PACS numbers here.
+ An example:
+\end_layout
+
+\end_inset
+
+33.15.Ta
+\end_layout
+
+\begin_layout Keywords
+Suggested keywords
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+optional; use the document class option 
+\family sans
+showkeys
+\family default
+ if keyword should be displayed.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Table of contents is optional and should be inserted to this position if
+ desired.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+Body of paper goes here.
+ Some general notes:
+\end_layout
+
+\begin_layout Itemize
+Figures should be put into the text as floats.
+ There is no need to do explicit centering.
+\end_layout
+
+\begin_layout Itemize
+Surround figures with the Turn Page layout for landscape.
+\end_layout
+
+\begin_layout Itemize
+Tables should appear as floats within the text.
+\end_layout
+
+\begin_layout Itemize
+The Ruled Table layout adds doubled rules to table and sets a reasonable
+ default table settings.
+\end_layout
+
+\begin_layout Itemize
+Surround tables with the Turn Page layout for landscape.
+\end_layout
+
+\begin_layout Itemize
+Use \SpecialChar LyX
+'s span column option to get a full-width table or figure in two-column.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+The topological matter has been studied extensively recently in different
+ platform
+\begin_inset CommandInset citation
+LatexCommand citep
+key "laughlin1983anomalous,wang2009observation,hasan2010colloquium,qi2011topological,stuhl2015visualizing"
+literal "false"
+
+\end_inset
+
+.
+ One of the interesting feature is that the topological matter is protected
+ by topology against local perturbations, such as, the quantization of Hall
+ conduct is robust under impurity
+\begin_inset CommandInset citation
+LatexCommand citep
+key "von1986quantized,nagaosa2010anomalous,stormer1999fractional"
+literal "false"
+
+\end_inset
+
+; another unique character of the topology matter is the appearance of the
+ edge state at the boundary of the sample
+\begin_inset CommandInset citation
+LatexCommand citep
+key "jackiw1976solitons,su1979solitons"
+literal "false"
+
+\end_inset
+
+.
+ The bulk topological invariants and the number of the edge states can be
+ connected by the bulk-edge correspondence
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wen1992theory,hasan2010colloquium"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Though the equilibrium properties have been widely explored, the non-equilibrium
+ dynamics of topological system is still under investigation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "heyl2018dynamical"
+literal "false"
+
+\end_inset
+
+(Dynamical quantum phase transition
+\begin_inset CommandInset citation
+LatexCommand citep
+key "heyl2017dynamical"
+literal "false"
+
+\end_inset
+
+, Dynamical chern number, linking number
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhysRevLett.118.185701,flaschner2018observation,tarnowski2019measuring"
+literal "false"
+
+\end_inset
+
+).
+ The quench process is the typical non-equilibrium process which have been
+ studied in different topological systems.
+ On one hand, the bulk topological invariants, such as Chern number, is
+ known to be unchanged under unitary dynamics
+\begin_inset CommandInset citation
+LatexCommand citep
+key "d2015dynamical,caio2015quantum"
+literal "false"
+
+\end_inset
+
+ and they are unchanged during the quench processes.
+ However, the non-unitary processes, such as the dissipation or decoherence
+ process, will change the bulk topological invariants during quench process
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "aidelsburger2011experimental,aidelsburger2013realization,atala2014observation"
+literal "false"
+
+\end_inset
+
+.
+ Since the bulk-edge correspondence is only valid for the equilibrium situation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "d2015dynamical,caio2015quantum,wilson2016remnant,hu2016dynamical"
+literal "false"
+
+\end_inset
+
+, the dynamics of the edge states in the boundary of the topological system
+ is still elusive
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wang2019experimental,yi2019observing"
+literal "false"
+
+\end_inset
+
+, for example, Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "caio2015quantum"
+literal "false"
+
+\end_inset
+
+ studies quenches between topological and non-topological phases in Haldane
+ model, while observing presence or absence of edge modes; Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hu2016dynamical"
+literal "false"
+
+\end_inset
+
+.
+ To investigate the dynamics of the edge states have attracted a lot of
+ attention
+\begin_inset CommandInset citation
+LatexCommand citep
+key "d2015dynamical"
+literal "false"
+
+\end_inset
+
+.
+ In addition, how to experimentally observe the dynamics of the edge state
+ is still an open question.
+ 
+\end_layout
+
+\begin_layout Standard
+The quantum walk (QW), which can be used to construct universal quantum
+ computation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "childs2009universal,childs2013universal"
+literal "false"
+
+\end_inset
+
+, has been shown to be a powerful platform to study the equilibrium and
+ non-equilibrium topological properties of spin-orbital systems
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhysRevA.82.033429,Kitagawa2012,asboth2012symmetries,asboth2013bulk,asboth2014chiral,obuse2015unveiling,barkhofen2017measuring,cardano2016statistical,flurin2017observing,mochizuki2016explicit,xiao2017observation,schreiber2010photons,crespi2013anderson"
+literal "false"
+
+\end_inset
+
+.
+ Particularly, it has been used to observe the bound states
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kitagawa2012observation,chen2018observation,nitsche2019eigenvalue"
+literal "false"
+
+\end_inset
+
+.
+ Different QWs have been experimentally realized in different experiment
+ platform, such as photonics
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kitagawa2012observation,schreiber2010photons,broome2010discrete,chen2018observation,xu2018measuringd,xu2018measuringw"
+literal "false"
+
+\end_inset
+
+, neutral atoms
+\begin_inset CommandInset citation
+LatexCommand citep
+key "karski2009quantum,mugel2016topological"
+literal "false"
+
+\end_inset
+
+, superconductor
+\begin_inset CommandInset citation
+LatexCommand citep
+key "flurin2017observing,yan2019strongly"
+literal "false"
+
+\end_inset
+
+ and trapped ion
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xue2009quantum,zahringer2010realization"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+The trapped ions system, which can be accurately controlled and manipulated
+\begin_inset CommandInset citation
+LatexCommand citep
+key "leibfried2003quantum,blatt2012quantum"
+literal "false"
+
+\end_inset
+
+, is one of the most idea platform for investigating quantum information
+ processing and no-equilibrium dynamics of many-body system
+\begin_inset CommandInset citation
+LatexCommand citep
+key "eisert2015quantum,zhang2017observationm,zhang2017observationt"
+literal "false"
+
+\end_inset
+
+.
+ Particularly, QW has been realized in one or two trapped 
+\begin_inset Formula $^{40}\text{Ca}^{+}$
+\end_inset
+
+ ions by the phase space operation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xue2009quantum,zahringer2010realization"
+literal "false"
+
+\end_inset
+
+.
+ Here, we proposed to encode QW on the Fock space of the phonon, which is
+ similar to the Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "oka2005breakdown"
+literal "false"
+
+\end_inset
+
+ and the zero-number phonon state (the vacuum state) acts as the natural
+ boundary of the QW.
+ With carefully designed the laser sequences, the dynamics of the edge state
+ can be experimentally investigated.
+ We carefully analyze the quench dynamics of the edge state by tuning different
+ parameters in this system.
+\end_layout
+
+\begin_layout Section
+THEORETICAL BACKGROUND
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:2"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+One dimensional discrete QW is quantum version of the classical random walk.
+ The walker is described by two internal states (denoted by
+\begin_inset Formula $\left|\uparrow\right\rangle ,\left|\downarrow\right\rangle $
+\end_inset
+
+ and the position state (labeled as 
+\begin_inset Formula $\left|x\right\rangle $
+\end_inset
+
+), and the internal state and the position state can be coupled through
+ the coin operation 
+\begin_inset Formula $R(\theta,x)$
+\end_inset
+
+ (
+\begin_inset Formula $\theta$
+\end_inset
+
+ is the control parameter and it may dependent on the position of the walker
+ 
+\begin_inset Formula $x$
+\end_inset
+
+).
+ We focus on the split-step quantum walk (SSQW) and its one-step floquet
+ operator 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+ is defined as: 
+\begin_inset Formula 
+\begin{eqnarray}
+U(\theta_{1},\theta_{2}) & = & S_{+}R(\theta_{2})S_{-}R(\theta_{1})\label{eq:1}
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ is defined as 
+\begin_inset Formula $\sum|i\pm1\rangle\langle i|\otimes|\uparrow\rangle\left\langle \uparrow\left|+1\otimes\right|\downarrow\right\rangle \langle\downarrow|$
+\end_inset
+
+ and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $R(\theta)=\sum_{i}|i\rangle\langle i|\otimes\mathrm{e}^{-\mathrm{i}\sigma_{y}\theta/2}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ (the coin operator is independent of the position 
+\begin_inset Formula $x$
+\end_inset
+
+).
+ The quantum state of the SSQW can be obtained by: 
+\begin_inset Formula $|\Psi\rangle_{n}=U^{n}(\theta_{1},\theta_{2})|\Psi\rangle_{0}$
+\end_inset
+
+ where 
+\begin_inset Formula $|\Psi\rangle_{0}$
+\end_inset
+
+ is the initial state of the evolution (generally, we begin the evolution
+ of the system with a product state).
+ The effective Hamiltonian of this periodical system can be derived from
+ 
+\begin_inset Formula $U(\theta_{1},\theta_{2})=e^{-iH_{\mathrm{eff}}}$
+\end_inset
+
+, and 
+\begin_inset Formula $H_{\text{eff}}=\int_{k}E(k)n(k)\cdot\sigma\otimes|k\rangle\langle k|$
+\end_inset
+
+ in momentum space, where the dispersion relation and Bloch vector:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+\cos E(k) & =\cos\left(\theta_{2}/2\right)\cos\left(\theta_{1}/2\right)\cos k-\sin\left(\theta_{1}/2\right)\sin\left(\theta_{2}/2\right)\nonumber \\
+n_{x}(k)= & \frac{\cos\left(\theta_{2}/2\right)\sin\left(\theta_{1}/2\right)\sin k}{\sin E(k)}\nonumber \\
+n_{y}(k)= & \frac{\sin\left(\theta_{2}/2\right)\cos\left(\theta_{1}/2\right)+\cos\left(\theta_{2}/2\right)\sin\left(\theta_{1}/2\right)\cos k}{\sin E(k)}\nonumber \\
+n_{z}(k)= & -\frac{\cos\left(\theta_{2}/2\right)\cos\left(\theta_{1}/2\right)\sin k}{\sin E(k)},
+\end{align}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+with 
+\begin_inset Formula $\sigma=(\sigma_{x},\sigma_{y},\sigma_{z})$
+\end_inset
+
+.
+ To determine the phase diagram of the QW, two different time frames which
+ are defined by: 
+\begin_inset Formula 
+\begin{eqnarray}
+U_{1}(\theta_{1},\theta_{2})=R\left(\theta_{1}/2\right)S_{+}R\left(\theta_{2}\right)S_{-}R\left(\theta_{1}/2\right),\nonumber \\
+U_{2}(\theta_{1},\theta_{2})=R\left(\theta_{2}/2\right)S_{-}R(\theta_{1})S_{+}R\left(\theta_{2}/2\right).\label{eq:2}
+\end{eqnarray}
+
+\end_inset
+
+should be considered.
+ These two time frames have chiral symmetry and the whole phase diagram
+ can be described by a pair of 
+\begin_inset Formula $\mathbb{Z}_{2}\times\mathbb{Z}_{2}$
+\end_inset
+
+ topological invariants 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "asboth2013bulk"
+literal "false"
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{eqnarray}
+\nu_{0}=\frac{1}{2}+\frac{1}{2}(\nu^{\prime}+\nu^{\prime\prime}),\nonumber \\
+\nu_{\pi}=\frac{1}{2}+\frac{1}{2}(\nu^{\prime}-\nu^{\prime\prime}),\label{eq:3}
+\end{eqnarray}
+
+\end_inset
+
+ where 
+\begin_inset Formula $\nu^{\prime}$
+\end_inset
+
+ is the winding of the eigenstate in the first time frame and 
+\begin_inset Formula $\nu^{\prime\prime}$
+\end_inset
+
+ is the winding in the second time frame (see Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_1.svg
+	width 17.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:1"
+
+\end_inset
+
+Split-step quantum walk with the parameters 
+\begin_inset Formula $\theta_{1}=\frac{\pi}{2}$
+\end_inset
+
+, 
+\begin_inset Formula $\theta_{2}=0$
+\end_inset
+
+.
+ a shows the dispersion relationship which is independent of the time frame;
+ the blue and red dash lines represent the cases which the energy gap close
+ at the quasi-energy 0 and 
+\begin_inset Formula $\pi$
+\end_inset
+
+and character the phase transition points.
+ b and c correspond to the two time frames with chiral symmetry to obtain
+ the 
+\begin_inset Formula $\mathbb{Z}_{2}\times\mathbb{Z}_{2}$
+\end_inset
+
+ topological invariants.
+ In the cases, 
+\begin_inset Formula $\nu^{\prime}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\nu^{\prime\prime}=0$
+\end_inset
+
+ thus based on 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset Formula $\nu_{0}=1$
+\end_inset
+
+, 
+\begin_inset Formula $\nu_{\pi}=0$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Due to the topological character of the different phases in the QW, when
+ crossing one phase to another topological phase in the real space, there
+ is a bound state appear at the boundary of these two phases.
+ In one dimensional QW, the bound state can be formed with inhomogeneous
+ rotations in space between distinct regions and it has been observed 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "kitagawa2012observation"
+literal "false"
+
+\end_inset
+
+.
+ The different topological invariants in the two phases guarantee the robust
+ of the bound state.
+ Especially, the vacuum can be viewed as a special phase and the bound state
+ can appear at the boundary of a semi-finite QW system (see 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:A"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for a simple model with analytical eigen-state results).
+\end_layout
+
+\begin_layout Standard
+In order to investigate the dynamics of the bound state between the quench
+ of the system, we first evolved the system with initial effective hamiltonian
+ 
+\begin_inset Formula $H_{\text{eff}}(\theta_{1}^{i},\theta_{2}^{i})$
+\end_inset
+
+ to form a stable bound state at the boundary.
+ Then, suddenly (or slowly) changing the effective Hamiltonian of the system
+ to the final Hamiltonian 
+\begin_inset Formula $H_{\text{eff}}(\theta_{1}^{f},\theta_{2}^{f})$
+\end_inset
+
+ (or slowly change the parameter 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $(\theta_{1}^{i},\theta_{2}^{i})$
+\end_inset
+
+ to 
+\begin_inset Formula $(\theta_{1}^{f},\theta_{2}^{f})$
+\end_inset
+
+ along some path
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ ) and observe the dynamics of the bound state.
+ The dynamics is strongly dependent of the quench parameter and the local
+ manipulation of the boundary site.
+ 
+\color red
+Is it possible to change the bond state by local operator?->twisted boundary
+ condition 
+\end_layout
+
+\begin_layout Section
+EXPERIMENT PROPOSAL
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:3"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide true
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 1
+width ""
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_2.svg
+	width 17.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:2"
+
+\end_inset
+
+(a) Pulse sequences to realize QW with boundary.
+ 
+\begin_inset Formula $\left|\uparrow,n\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow,n\right\rangle $
+\end_inset
+
+ represent for 
+\begin_inset Formula $|n\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ and 
+\begin_inset Formula $|n\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+ with 
+\begin_inset Formula $\left|F=1,m_{F}=0\right\rangle \coloneqq\left|\uparrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|F=0,m_{F}=1\right\rangle \coloneqq\left|\downarrow\right\rangle $
+\end_inset
+
+ of 
+\begin_inset Formula $^{2}S_{1/2}$
+\end_inset
+
+ manifold, 
+\begin_inset Formula $|n\rangle$
+\end_inset
+
+ for the state of the phonon with 
+\begin_inset Formula $n$
+\end_inset
+
+ phonon.
+ Auxiliary level 
+\begin_inset Formula $\left|a\right\rangle $
+\end_inset
+
+ works for temporal state shelving and it has no occupation after the whole
+ operations.
+ Six steps are required for 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+ along the black arrow direction.
+ Step one and four are rotation operations which mix spin and other steps
+ are for spin-dependent shifting.
+ Phonon number deduces one in step two while blocked at 
+\begin_inset Formula $\left|\downarrow,0\right\rangle $
+\end_inset
+
+ and then flips to 
+\begin_inset Formula $\left|\uparrow,0\right\rangle $
+\end_inset
+
+ in step three so it simulates the spin flipping operation at boundary.
+ Adiabatic processes in step two and five fix the problem of phonon shifting
+ simultaneously, works as an adiabatically 
+\begin_inset Formula $\pi$
+\end_inset
+
+flipping between upper and lower state.
+ (b) Eigen-energy of modulated Jaynes-Cummings model 
+\begin_inset Formula $H(t)$
+\end_inset
+
+ in subspace 
+\begin_inset Formula $\left|\downarrow,n\right\rangle \leftrightarrow\left|\uparrow,n+1\right\rangle $
+\end_inset
+
+ (in the unit of 
+\begin_inset Formula $\Omega$
+\end_inset
+
+).
+ Rabi frequency 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ equals to detuning 
+\begin_inset Formula $\delta$
+\end_inset
+
+, while total transition time sets to be 
+\begin_inset Formula $\frac{10}{\Omega}$
+\end_inset
+
+.
+ The adiabatic condition is satisfied when the evolution is much slower
+ the time scale set by the energy gap, then adiabatically transform state
+ from 
+\begin_inset Formula $\left|\downarrow,n\right\rangle $
+\end_inset
+
+ to 
+\begin_inset Formula $\left|\uparrow,n+1\right\rangle $
+\end_inset
+
+ for all 
+\begin_inset Formula $n$
+\end_inset
+
+.
+ (c) Bulk togological invariant is defined with boundary condition.
+ With introducing virtual site at 
+\begin_inset Formula $n=-1$
+\end_inset
+
+ lattice, we can define the boundary 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+ operator 
+\begin_inset Formula $C_{-1,0}$
+\end_inset
+
+ (thus vacuum) then bulk phase with different 
+\begin_inset Formula $(\theta_{1},\theta_{2})$
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Trapped ion system have been proved as a powerful platform for quantum simulatio
+n.
+ Here, we propose a way to realize the QW with boundary by a single 
+\begin_inset Formula $^{171}\text{Yb}^{+}$
+\end_inset
+
+ ion in a three-dimensional Harmonic trap.
+ In this system, the two level internal state of the QW (we call spin) is
+ encoded in the 
+\begin_inset Formula $\left|F=1,m_{F}=0\right\rangle \coloneqq\left|\uparrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|F=0,m_{F}=1\right\rangle \coloneqq\left|\downarrow\right\rangle $
+\end_inset
+
+ of 
+\begin_inset Formula $^{2}S_{1/2}$
+\end_inset
+
+ hyperfine manifold of ion 
+\begin_inset Formula $^{171}\text{Yb}^{+}$
+\end_inset
+
+ with splitting 
+\begin_inset Formula $\omega_{\text{Hpf}}=2\pi\times12.6\text{\text{GHz}}$
+\end_inset
+
+; and the lattice sites of the QW are encode in the number of the phonons
+ where the zero phonon state provide the natural boundary of the QW.
+ To realize the QW, we need to implement two different basic operators 
+\begin_inset Formula $R(\theta)$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+.
+ The rotation operator 
+\begin_inset Formula $R(\theta)$
+\end_inset
+
+ is easy to realize by manipulate the hyperfine state (
+\begin_inset Formula $|\uparrow\rangle$
+\end_inset
+
+ and 
+\begin_inset Formula $|\downarrow\rangle$
+\end_inset
+
+) by microwave or by Stimulate-Raman-Process.
+ To implement the operator 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ in the phonon space needs more work and is a bit complicated, where the
+ auxiliary Zeeman energy level 
+\begin_inset Formula $\left|F=1,m_{F}=1\right\rangle \coloneqq\left|a\right\rangle $
+\end_inset
+
+ will introduced to provide temporary shelving states.
+ 
+\end_layout
+
+\begin_layout Standard
+Generally, the interaction between the internal state (
+\begin_inset Formula $|\downarrow\rangle$
+\end_inset
+
+ and 
+\begin_inset Formula $|\uparrow\rangle$
+\end_inset
+
+) and the phonons with frequency 
+\begin_inset Formula $\omega_{\text{phon}}$
+\end_inset
+
+ can be induced by a pair of proper selected stimulated Raman beams with
+ frequency
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $\omega_{\text{Raman1}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\omega_{\text{Raman2}}$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ , and the interaction can be described by the effective two level Jaynes-Cummin
+gs Hamiltonian 
+\begin_inset Formula $H_{\text{JC}}=\frac{\Omega}{2}a\sigma_{+}e^{i\delta t}+\text{h.c.}$
+\end_inset
+
+ under the rotation wave approximation (RWA), where 
+\begin_inset Formula $\Omega$
+\end_inset
+
+ is the effective Rabi frequency, 
+\begin_inset Formula $\omega_{\text{Raman1}}-\omega_{\text{Raman2}}=\omega_{\text{Hpf}}\pm\omega_{\text{phon}}+\delta$
+\end_inset
+
+ (red (blue) sideband corresponded 
+\begin_inset Formula $-$
+\end_inset
+
+(
+\begin_inset Formula $+$
+\end_inset
+
+) and phonon frequency 
+\begin_inset Formula $\omega_{\text{phon}}$
+\end_inset
+
+) , 
+\begin_inset Formula $a^{+}=\sum_{n=0}\sqrt{n+1}\left|n+1\right\rangle \left\langle n\right|$
+\end_inset
+
+ (
+\begin_inset Formula $a=\sum_{n=1}\sqrt{n}\left|n-1\right\rangle \left\langle n\right|$
+\end_inset
+
+) is the creation (annihilation) operation of phonon, 
+\begin_inset Formula $\sigma_{+}(\sigma_{-})$
+\end_inset
+
+ is the flipping operation 
+\begin_inset Formula $\left|\uparrow\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+ (
+\begin_inset Formula $\left|\downarrow\right\rangle \left\langle \uparrow\right|$
+\end_inset
+
+) of spin.
+ With this integration, the number of the phonons can be manipulated: the
+ red sideband beam gives the transition of 
+\begin_inset Formula $|n\rangle\otimes|\downarrow\rangle\leftrightarrow|n-1\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ with Rabi frequency 
+\begin_inset Formula $\Omega_{n,n-1}=\sqrt{n}\Omega$
+\end_inset
+
+ and the blue sideband gives the transition of 
+\begin_inset Formula $|n\rangle\otimes|\downarrow\rangle\leftrightarrow|n+1\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ with Rabi frequency 
+\begin_inset Formula $\Omega_{n,n+1}=\sqrt{n+1}\Omega$
+\end_inset
+
+, where 
+\begin_inset Formula $|n\rangle$
+\end_inset
+
+ is the state of the phonon with 
+\begin_inset Formula $n$
+\end_inset
+
+ phonon.
+ The controlled hopping between the state with different number of phonons
+ is almost the same as the operator 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ besides the Rabi frequency is dependent of the number of the phonon (lattice
+ site of the QW) .
+ The phonon number dependence introduces additional difficulty, as a result,
+ to implement the hopping operators 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ homogeneously is the main obstacle to realize the QW in this system.
+ 
+\end_layout
+
+\begin_layout Standard
+Actually, the hopping operator 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ indeed can be realized by some adiabatic processes (called Stimulated Raman
+ Adiabatic Passage (STIRAP) ) which has already been used to cool the motional
+ state in Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "king1998cooling,wunderlich2007robust"
+literal "false"
+
+\end_inset
+
+ and solve the imhomogenious hopping 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "um2016phonon"
+literal "false"
+
+\end_inset
+
+.
+ According to the adiabatic theorem
+\begin_inset CommandInset citation
+LatexCommand citep
+key "simon1983holonomy"
+literal "false"
+
+\end_inset
+
+, when Hamiltonian of the system changes slowly enough
+\begin_inset CommandInset citation
+LatexCommand citep
+key "wunderlich2007robust"
+literal "false"
+
+\end_inset
+
+, the system will keep on the same eigenstate of the Hamiltonian for all
+ the time if its initial state is a eigenstate of the initial Hamiltonian.
+ In our current experimental setup, we can set 
+\begin_inset Formula $\Omega(t)=\Omega\sin(\frac{\pi t}{\tau})$
+\end_inset
+
+ and 
+\begin_inset Formula $\delta(t)=\delta\cos(\frac{\pi t}{\tau})$
+\end_inset
+
+ (
+\begin_inset Formula $\tau$
+\end_inset
+
+ is the total operation time) in the Hamiltonian 
+\begin_inset Formula $H_{\text{\text{JC}}}$
+\end_inset
+
+ to construct the time dependent Hamiltonian 
+\begin_inset Formula $H(t)$
+\end_inset
+
+ in the adiabatic process.
+ We know that the JC Hamiltonian only cause the transition between each
+ 
+\begin_inset Formula $|n\rangle\otimes|\downarrow\rangle\leftrightarrow|n+1\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ subspace, it could be viewed as a two-level system in each subspace.
+ The initial state 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $|n\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+ is the
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ lower eigenstate of the two-band Hamiltonian 
+\begin_inset Formula $H(0)$
+\end_inset
+
+, when the parameter satisfies the adiabatic condition 
+\begin_inset Formula $\frac{d\theta(t)}{dt}\ll gap$
+\end_inset
+
+ (
+\begin_inset Formula $\tan(\theta(t))=\frac{\Omega(t)}{\delta(t)}$
+\end_inset
+
+ is the angle on the Bloch sphere during the evolution).
+ The system will keep evolving along the lower band of 
+\begin_inset Formula $H(t)$
+\end_inset
+
+ and stay at the corresponding eigenstate of 
+\begin_inset Formula $H(\tau)$
+\end_inset
+
+.
+ The adiabatic process is not dependent on the number of the phonon if the
+ order of the eigenstates is given, see Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+b for eigen-energy with given parameters during the whole process.
+ 
+\color red
+Give a level graph of H(t) to show the connection of the corresponding eigenstat
+e
+\color inherit
+ In order to speed up adiabatic process, further methods to suppress the
+ non-adiabatic excitation
+\begin_inset CommandInset citation
+LatexCommand citep
+key "um2016phonon"
+literal "false"
+
+\end_inset
+
+ and to reshape the waveform for shortcut Raman passage has been proposed
+ and realized in experiment
+\begin_inset CommandInset citation
+LatexCommand citep
+key "du2016experimental"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Therefore, based on the STIRAP method, the key operators 
+\begin_inset Formula $R(\theta)$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{\pm}$
+\end_inset
+
+ for the QW can be realized in a trapped ion and the whole QW evolution
+ 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+ can be realized by the following six steps.
+ For convenience, we define 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Raman1}}-\omega_{\text{Raman2}}$
+\end_inset
+
+ and Zeeman splitting under magnetic field 
+\begin_inset Formula $\omega_{\text{Zm}}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Apply rotation 
+\begin_inset Formula $R_{y}(\theta_{1})$
+\end_inset
+
+ in the spin space (spanned 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+), which can be easily realized by two Raman laser with 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Hpf}}$
+\end_inset
+
+.
+ The corresponding evolution is 
+\begin_inset Formula $R_{y}(\theta_{1})=\sum_{n=0}^{\infty}\left|i\right\rangle \left\langle i\right|\otimes[\cos(\theta_{1}/2)(\left|\uparrow\right\rangle \left\langle \uparrow\right|+\left|\downarrow\right\rangle \left\langle \downarrow\right|)-\sin(\theta_{1}/2)(\left|\uparrow\right\rangle \left\langle \downarrow\right|-\left|\downarrow\right\rangle \left\langle \uparrow\right|)]$
+\end_inset
+
+ (
+\color red
+
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ determined by pulse duration, which can be controlled precisely
+\color inherit
+) which is independent of the number of the phonon.
+\end_layout
+
+\begin_layout Enumerate
+Apply STIRAP for first red sideband between 
+\begin_inset Formula $\left|a\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+, the frequency of the two Raman laser are chosen as 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Hpf}}+\omega_{\text{Zm}}-\omega_{\text{Phon}}+\delta(t)$
+\end_inset
+
+ and the evolution can be effectively written as 
+\begin_inset Formula $S_{-}=|0\rangle\langle0|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|+-\sum_{n=1}^{\infty}|n-1\rangle\langle n|\otimes\left|a\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+.
+ Notice 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+ could not be driven at this step.
+\end_layout
+
+\begin_layout Enumerate
+Apply 
+\begin_inset Formula $R_{y}(\pi)$
+\end_inset
+
+ in the spin space as in step 1, the evolution is: 
+\begin_inset Formula $\sum_{n=0}^{\infty}\left|n\right\rangle \left\langle n\right|\otimes(\left|\downarrow\right\rangle \left\langle \uparrow\right|-\left|\uparrow\right\rangle \left\langle \downarrow\right|+\left|a\right\rangle \left\langle a\right|)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+Apply 
+\begin_inset Formula $R_{y}(\theta)$
+\end_inset
+
+ in the space spanned by 
+\begin_inset Formula $\left|a\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ as in the step 1 with 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Hpf}}+\omega_{\text{Zm}}$
+\end_inset
+
+, the evolution is: 
+\begin_inset Formula $\sum_{n=0}^{\infty}\left|n\right\rangle \left\langle n\right|\otimes[\cos(\theta_{2}/2)(\left|\downarrow\right\rangle \left\langle \downarrow\right|+\left|a\right\rangle \left\langle a\right|)-\sin(\theta_{2}/2)(\left|\downarrow\right\rangle \left\langle a\right|-\left|a\right\rangle \left\langle \downarrow\right|)]$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+Apply STIRAP for the first red sideband between 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ with 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Hpf}}+\omega_{\text{Zm}}+\omega_{\text{phon}}+\delta(t)$
+\end_inset
+
+, the effective evolution is 
+\begin_inset Formula $S_{+}=-\sum_{n=0}^{\infty}\left|n+1\right\rangle \left\langle n\right|\otimes\left|\uparrow\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Enumerate
+Apply 
+\begin_inset Formula $R_{y}(\pi)$
+\end_inset
+
+ in the space spanned by 
+\begin_inset Formula $\left|a\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ with 
+\begin_inset Formula $\Delta\omega=\omega_{\text{Hpf}}+\omega_{\text{Zm}}$
+\end_inset
+
+, the evolution is 
+\begin_inset Formula $\sum_{n=0}^{\infty}|n\rangle\langle n|\otimes(-\left|\downarrow\right\rangle \left\langle a\right|+\left|a\right\rangle \left\langle \downarrow\right|+\left|\uparrow\right\rangle \left\langle \uparrow\right|)$
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+the whole process is clearly shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ To complete the QW, we need to repeat the whole cycle many times.
+ It is emphasized that the auxiliary state 
+\begin_inset Formula $\left|a\right\rangle $
+\end_inset
+
+ which is introduced for temporal shelving is empty when the six-step cycle
+ is completed.
+ It means there is no probability to find the ion at the state 
+\begin_inset Formula $|a\rangle$
+\end_inset
+
+ and no information is leaked.
+ 
+\end_layout
+
+\begin_layout Standard
+Obviously, the zero phonon state which provide the boundary in the QW is
+ special (see above step 2), we can rewrite the evolution operators 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+ to distinguish the boundary site from the other sites as below:
+\begin_inset Formula 
+\begin{align}
+U_{x>0}(\theta_{1},\theta_{2}) & =S_{x>0}^{+}e^{-i\theta_{2}\sigma_{y}/2}S_{x>0}^{-}e^{-i\theta_{1}\sigma_{y}/2},\text{where}\nonumber \\
+S_{x>0}^{+} & =\sum_{n=0}^{\infty}\left|n\right\rangle \left\langle n\right|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|-\left|n+1\right\rangle \left\langle n\right|\otimes\left|\uparrow\right\rangle \left\langle \uparrow\right|\label{eq:5}\\
+S_{x>0}^{-} & =\sum_{n=1}^{\infty}\left|n\right\rangle \left\langle n\right|\otimes\left|\uparrow\right\rangle \left\langle \uparrow\right|-\left|n-1\right\rangle \left\langle n\right|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|;\nonumber 
+\end{align}
+
+\end_inset
+
+and the boundary operator:
+\begin_inset Formula 
+\begin{equation}
+U_{x=0}(\theta_{1})=e^{i\phi}\left|0\right\rangle \left\langle 0\right|\otimes\left|\uparrow\right\rangle \left\langle \downarrow\right|e^{-i\theta_{1}\sigma_{y}/2}.\label{eq:6}
+\end{equation}
+
+\end_inset
+
+ Due to the chiral and the particle hole symmetry requirement of the QW,
+ the parameter 
+\begin_inset Formula $\phi$
+\end_inset
+
+ can only be 
+\begin_inset Formula $0$
+\end_inset
+
+ or 
+\begin_inset Formula $\pi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+PHASE DIADRAM
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:4"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Based on the bulk-edge correspondence theory, some bound states will appear
+ at the interface of two topologically different bulk phases.
+ Particularly, the bound state may appear at the boundary of a finite or
+ semi-infinite topological system, which can be viewed as the interface
+ of the bulk topological phase and some effective bulk phase.
+ Interestingly, the effective bulk phase is dependent of the local operator
+ of the boundary condition.
+ To clear establish the relations among the bound state, the bulk topological
+ invariants and the boundary condition, we need to define the correspondence
+ between the effective bulk phases and the boundary operators.
+ 
+\end_layout
+
+\begin_layout Standard
+To establish the correspondence, we map our proposal to the "cut link" model
+ suggested in Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "asboth2013bulk"
+literal "false"
+
+\end_inset
+
+.
+ In the 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+ model, the shift operators of the 
+\begin_inset Quotes eld
+\end_inset
+
+uncut link
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+ operation between the site 
+\begin_inset Formula $n$
+\end_inset
+
+ and 
+\begin_inset Formula $n+1$
+\end_inset
+
+ is introduced as:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+S_{n,n+1}= & \left|n\right\rangle \left\langle n+1\right|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|+\left|n+1\right\rangle \left\langle n\right|\otimes\left|\uparrow\right\rangle \left\langle \uparrow\right|\nonumber \\
+C_{n,n+1}= & \left|n+1\right\rangle \left\langle n+1\right|\otimes\left|\uparrow\right\rangle \left\langle \downarrow\right|-\left|n\right\rangle \left\langle n\right|\otimes\left|\downarrow\right\rangle \left\langle \uparrow\right|,
+\end{align}
+
+\end_inset
+
+the
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ standard SSQW in Eq.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ could be decomposed as
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\begin_inset Formula $U(\theta_{1},\theta_{2})=\sum(\cos(\theta_{2}/2)S_{n,n+1}+\sin(\theta_{2}/2)C_{n,n+1})R(\theta_{1})$
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+.
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+Particularly, in the semi-infinite system,
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+the 
+\begin_inset Quotes eld
+\end_inset
+
+uncut link
+\begin_inset Quotes erd
+\end_inset
+
+ with 
+\begin_inset Formula $n\geq0$
+\end_inset
+
+ is normal
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ while 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ works more.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+ operator 
+\begin_inset Formula $C_{-1,0}$
+\end_inset
+
+ at 
+\begin_inset Formula $n=-1$
+\end_inset
+
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ serves as boundary condition.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+c we give the sketch of boundary condition: the lattice space stops at 
+\begin_inset Formula $n=0$
+\end_inset
+
+ site, but we can introduce an additional virtual site 
+\begin_inset Formula $n=-1$
+\end_inset
+
+ and then makeup the boundary operation 
+\begin_inset Formula $C_{0,-1}$
+\end_inset
+
+ (
+\begin_inset Formula $n=-1$
+\end_inset
+
+ and 
+\begin_inset Formula $n=0$
+\end_inset
+
+ sites don't have the real hopping so we could assume a virtual sites at
+ 
+\begin_inset Formula $n=-1$
+\end_inset
+
+ while not affecting the results in Eq.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ Compared Eq.
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ with Eq.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "eq:6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we should reconstruct the linear combination.
+ Take 
+\begin_inset Formula $\phi=0$
+\end_inset
+
+ as an eample:
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+
+\begin_inset Formula 
+\begin{align}
+U_{x>0}(\theta_{1},\theta_{2}) & =-\sum_{n=0}(\cos(\theta_{2}/2)S_{n,n+1}+\sin(\theta_{2}/2)C_{n,n+1})R(\theta_{1})\nonumber \\
+U_{x=0}(\theta_{1}) & =C_{0,-1}R(\theta_{1}),
+\end{align}
+
+\end_inset
+
+now the vacuum is represented by the boundary operation 
+\begin_inset Formula $C_{0,-1}$
+\end_inset
+
+.
+ Notice that 
+\begin_inset Formula $U_{x>0}(\theta_{2}=-\pi)=U_{x=0}$
+\end_inset
+
+, thus we know that 
+\begin_inset Formula $\theta_{2}=-\pi$
+\end_inset
+
+ in the phase diagram should belong to the vacuum phase.
+ Then we do the Fourier transform to the momentum space and get:
+\begin_inset Formula 
+\begin{eqnarray}
+U(k)=(e^{-ik}\left|\uparrow\right\rangle \left\langle \uparrow\right|-\left|\downarrow\right\rangle \left\langle \downarrow\right|)e^{-i\theta_{2}/2\sigma_{y}}\nonumber \\
+(e^{ik}\left|\downarrow\right\rangle \left\langle \downarrow\right|-\left|\uparrow\right\rangle \left\langle \uparrow\right|)e^{-i\theta_{1}/2\sigma_{y}},
+\end{eqnarray}
+
+\end_inset
+
+it's easy to see when 
+\begin_inset Formula $k=0$
+\end_inset
+
+, we know that 
+\begin_inset Formula $U(k)=-e^{-i\sigma_{y}(\theta_{1}-\theta_{2})/2}$
+\end_inset
+
+; and when 
+\begin_inset Formula $k=\pi$
+\end_inset
+
+, 
+\begin_inset Formula $U(k)=e^{-i\sigma_{y}(\theta_{1}+\theta_{2})/2}$
+\end_inset
+
+.
+ As mentioned before, the gap will close when 
+\begin_inset Formula $E=0,\pi$
+\end_inset
+
+, which serves as phase boundary calculated below:
+\begin_inset Formula 
+\begin{eqnarray}
+k=0,E=0,\ensuremath{\theta_{1}-\theta_{2}=\pm2\pi}\nonumber \\
+k=0,E=\ensuremath{\pi},\ensuremath{\theta_{1}-\theta_{2}=0}\nonumber \\
+k=\ensuremath{\pi},E=0,\ensuremath{\theta_{1}+\theta_{2}=0}\nonumber \\
+k=\ensuremath{\pi},E=\ensuremath{\pi},\ensuremath{\theta_{1}+\theta_{2}=\pm2\pi}
+\end{eqnarray}
+
+\end_inset
+
+Then we only care the localization probability at the boundary 
+\begin_inset Formula $p_{\text{Loc}}=p_{0}+p_{1}$
+\end_inset
+
+, where 
+\begin_inset Formula $p_{0}$
+\end_inset
+
+, 
+\begin_inset Formula $p_{1}$
+\end_inset
+
+ is the probability at 
+\begin_inset Formula $n=0,1$
+\end_inset
+
+ sites.
+ First, all the symmetry is preserved with the boundary mentioned above
+ (it's easy to test from the bulk and boundary operation under symmetry
+ operations 
+\begin_inset Formula $K,\sigma_{1}$
+\end_inset
+
+.
+ So the result bound state is protected by PHS and CS).
+ Second, the rotation operations do not need to be spatial in-homogeneous
+ 
+\begin_inset Formula $R(\theta_{2})$
+\end_inset
+
+ to obtain the bound state between topological trivial and non-trivial region
+ 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "barkhofen2017measuring,nitsche2019eigenvalue"
+literal "false"
+
+\end_inset
+
+.
+ With the definition of vacuum phase with the boundary operation and the
+ phase transition boundary mentioned above, we could obtain phase diagram
+ for all 
+\begin_inset Formula $(\theta_{1},\theta_{2})$
+\end_inset
+
+: starting from vacuum phase parameter, choosing a continuous path to another
+ parameter.
+ Every time cross 
+\begin_inset Formula $0(\pi)$
+\end_inset
+
+ gap closing line, 
+\begin_inset Formula $\nu_{0(\pi)}^{'}=(\nu_{0(\pi)}+1)\mod2$
+\end_inset
+
+.
+ The phase diagram is shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a.
+\end_layout
+
+\begin_layout Standard
+To verify the phase diagram and the bound state we simulate with different
+ parameters.
+ The population distribution after 50 steps verse different parameter is
+ shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+b, the solid curve gives the time frame 
+\begin_inset Formula $S_{+}R(\theta_{2})S_{-}R(\theta_{1})$
+\end_inset
+
+ while dash curve gives 
+\begin_inset Formula $R(\theta_{1}/2)S_{+}R(\theta_{2})S_{-}R(\theta_{1}/2)$
+\end_inset
+
+.
+ The initial state is prepared (cooling) onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+.
+ We study two cases: 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ is fixed as 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+ than scan 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ (cyan dash line in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a) and 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ is fixed as 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+ than scan 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ (blue dash line in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a).
+ Except the phase boundary between different regions, soliton will also
+ appear inside one regime, which corresponds to 
+\begin_inset Formula $\epsilon=\pi/2$
+\end_inset
+
+ eigenstate.
+ We could deduce several steps as following: when preparing the particle
+ onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+ state with 
+\begin_inset Formula $\theta_{1}=\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}=-\pi$
+\end_inset
+
+ (orange square in vacuum phase), the evolution of the system: 
+\begin_inset Formula 
+\begin{align}
+\left|0\right\rangle \otimes\left|\downarrow\right\rangle  & \stackrel{1}{\rightarrow}\left|0\right\rangle \otimes-\frac{1}{\sqrt{2}}(\left|\uparrow\right\rangle +\left|\downarrow\right\rangle )\stackrel{1}{\rightarrow}\left|0\right\rangle \otimes\left|\uparrow\right\rangle \nonumber \\
+ & \stackrel{2}{\rightarrow}\left|0\right\rangle \otimes\frac{1}{\sqrt{2}}(-\left|\uparrow\right\rangle +\left|\downarrow\right\rangle )\stackrel{2}{\rightarrow}\left|0\right\rangle \otimes-\left|\downarrow\right\rangle .
+\end{align}
+
+\end_inset
+
+After two steps the particle returns to its initial state with an additional
+ minus sign.
+ So we know that only the 
+\begin_inset Formula $E=\pi/2$
+\end_inset
+
+ eigenstate exists here, which explains the discontinuityly changing inside
+ one phase.
+ Similar analyses could also be done with red and purple stars.
+ While in the non-trivial phase with 
+\begin_inset Formula $\theta_{1}=\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}=\pi$
+\end_inset
+
+ (yellow square in 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+), the probability change continuously for only 
+\begin_inset Formula $E=0$
+\end_inset
+
+ eigenstate exist here:
+\begin_inset Formula 
+\begin{equation}
+\left|0\right\rangle \otimes\left|\downarrow\right\rangle \stackrel{1}{\rightarrow}\left|0\right\rangle \otimes\frac{1}{\sqrt{2}}(-\left|\uparrow\right\rangle +\left|\downarrow\right\rangle )\stackrel{1}{\rightarrow}\left|0\right\rangle \otimes\left|\downarrow\right\rangle .
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we simulate the evolution with different parameters.
+ The initial state is still prepared onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+ state and simulating the results after 20 steps.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a, we show 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ verse steps.
+ When the system evolves in the non-trivial phase, bound states will appear.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+bcd, heat maps of probabilities at all the phonons verse steps are shown.
+ What's more, we verify the eigen-energy of bound state in 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ and 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ (see Sup.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:B"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_3.svg
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:3"
+
+\end_inset
+
+The phase diagram of SSQW with boundary and simulatd bound state dynamics
+ under different parameters.
+ (a) Phase diagram of 
+\begin_inset Formula $\phi=0,\pi$
+\end_inset
+
+ (left and right diagrams).
+ The vacuum 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ is defined by “cut link
+\begin_inset Quotes erd
+\end_inset
+
+ operation 
+\begin_inset Formula $C_{-1,0}$
+\end_inset
+
+, which corresponds to the region: 
+\begin_inset Formula $\theta_{2}=-\pi,\pi$
+\end_inset
+
+ for 
+\begin_inset Formula $\phi=0,\pi$
+\end_inset
+
+ respectively.
+ In the phase diagram, the dashed green lines mean gap close at 
+\begin_inset Formula $E=0$
+\end_inset
+
+ and the soild red lines mean gap close at 
+\begin_inset Formula $E=\pi$
+\end_inset
+
+.
+ By testing the parity of how many times the gap close when starting from
+ vacuum to another region, we know the relative topological invariant 
+\begin_inset Formula $(\nu_{0},\nu_{\pi})$
+\end_inset
+
+.
+ The whole diagram is divided into four different phases.
+ (b) simulation results after 50 steps with 
+\begin_inset Formula $\phi=0,\pi$
+\end_inset
+
+ respectively.
+ The initial state is prepared onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+.
+ Apperance of bound states are represented by 
+\begin_inset Formula $P_{Loc}$
+\end_inset
+
+.
+ The cyan and blue curves correspond to scan over 
+\begin_inset Formula $\theta_{1}=\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}=\pi/2$
+\end_inset
+
+ dashed line in (a), dash lines and soild lines correspond to two time frames
+ introduced in Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ respectively.
+ Sharp boundary between different regions could be obversed from (b) for
+ the number of 
+\begin_inset Formula $E=0,\pi$
+\end_inset
+
+ bound states changing.
+ The sharpness will also appear inside one phase, for example: the red star
+ in 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+, purple stars in 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ and orange square in 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+.
+ 
+\begin_inset Formula $E=\pi/2$
+\end_inset
+
+ eigenstate contributes to this sharpness as explained in the main tex.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_4.svg
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:4"
+
+\end_inset
+
+Existence of bound state in different regions.
+ We study point in different topology: 
+\begin_inset Formula $(0,1):(0,\pi/2)$
+\end_inset
+
+, 
+\begin_inset Formula $(0,0):(-3\pi/4,\pi/2)$
+\end_inset
+
+, 
+\begin_inset Formula $(1,1):(3\pi/4,\pi/2)$
+\end_inset
+
+.
+ The particle is prepared onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+.
+ (a) is localized possibility 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ verse steps, we can observe that 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ decay to near zero after about 15 steps when coin in the trivial phase.
+ (b)(c)(d) shows 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ verse steps and phonon numbers.
+ Clear bound state could be found at the boundary when coin in the non-trivial
+ phase.
+ (b) is in the phase 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+, (c) is in the phase 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, and (d) is in the phase 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+.
+ The brightness shows the possibility.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+DYNAMICS OF BOUND STATE
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:5"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In the Sec.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "sec:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we have verified the existence of bound state from different aspects.
+ In this section we will focus on the dynamics of the bound state.
+ We desire to study the behavior of this quasi-equilibrium process under
+ different dynamical process.
+ Here we will study both quench and slow but non-adiabatic process.
+ Notice that under both conditions, topological invariant (
+\begin_inset Formula $\nu_{0},\nu_{\pi}$
+\end_inset
+
+) will not change under unitary dynamics
+\begin_inset CommandInset citation
+LatexCommand citep
+key "caio2015quantum,d2015dynamical"
+literal "false"
+
+\end_inset
+
+.
+ It might be a little different because in the continuous slow but non-adiabatic
+ process, the particle will come across the phase boundary, the gap will
+ close and mixture between excited state and ground state.
+ Instead of preparing the system onto ground state as suggested in
+\begin_inset CommandInset citation
+LatexCommand citep
+key "xu2018measuringd"
+literal "false"
+
+\end_inset
+
+, here steady-state wave function first build in one phase, which character
+ as the localization at boundary.
+ The idea of time-dependent coin operation have been mentioned in 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhysRevA.73.062304,PhysRevLett.104.050502"
+literal "false"
+
+\end_inset
+
+, but neither dealing with bound state.
+ In this section, we will study how bound state or steady-state response
+ to the quench and non-adiabatic process, further with disorder between
+ different regions.
+ We also studies how changing time-frame and breaking symmetry effects bound
+ state.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+1.
+ Dynamics between neighbor regions
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_5.svg
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:5"
+
+\end_inset
+
+Dynamical evolution between neighbor topological phase.
+ The particle is prepared on the 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+.
+ The first 20 steps are used for building steady-state and another 40 steps
+ which transfers the particle to another phase under different velocity.
+ Final 20 steps to obtain the steady-state in the final region, 
+\begin_inset Formula $\theta_{2}=\pi/2$
+\end_inset
+
+ or 
+\begin_inset Formula $-\pi/2$
+\end_inset
+
+ is fixed for simplification.
+ Then different dynamics (slow but non-adiabatic with different speed and
+ quench process) The second row studies to the evolution between (1,1) and
+ (0,1), which corresponds to red star (
+\begin_inset Formula $\pi/4,\pi/2$
+\end_inset
+
+) and green star (
+\begin_inset Formula $3\pi/4,\pi/2$
+\end_inset
+
+).
+ The result shows that the bound state will be preserved between the regions
+ with two eigenstates and single eigenstate.
+ The third row studies the evolution between 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ and 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, which corresponds to pink square (
+\begin_inset Formula $5\pi/4,-\pi/2$
+\end_inset
+
+) and orange square (
+\begin_inset Formula $\pi/4,-\pi/2$
+\end_inset
+
+).
+ The result shows that the bound state will be destroyed between the regions
+ with single eigenstate and vacuum.
+ The conclusion above have nothing to do with the velocity of the evolution.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we study the condition when across the phase boundary once.
+ The time-dependent coin operation in slow but non-adiabatic process have
+ the form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\theta(t)=\frac{\theta_{i}+\theta_{f}}{2}+\frac{\theta_{f}-\theta_{i}}{2}\tanh(\frac{t-t_{0}}{\xi})
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+where 
+\begin_inset Formula $\xi$
+\end_inset
+
+ determine the speed of evolution between two phases.
+ As 
+\begin_inset Formula $\xi$
+\end_inset
+
+ becomes smaller, the evolution tend to become the quench process; as 
+\begin_inset Formula $\xi$
+\end_inset
+
+ becomes bigger, the evolution tend to become the adiabatic evolution.
+ 
+\begin_inset Formula $\theta_{i}$
+\end_inset
+
+ is the beginning angle for building steady-state and 
+\begin_inset Formula $\theta_{f}$
+\end_inset
+
+ is the final angle after the dynamical evolution.
+ Another 10-20 steps with the final angle is applied for observe the steady-stat
+e after evolution.
+ We fix one rotation angle and change another angle for simplification.
+ Here we still focus on bound state, only care about 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we simulate dynamics between neighbor regions.
+ The particle evolves with initial parameters for 20 steps and then transfers
+ to another parameters for 40 steps with different 
+\begin_inset Formula $\xi$
+\end_inset
+
+.
+ 
+\begin_inset Formula $t_{0}$
+\end_inset
+
+ here is set to be 40.
+ Finally, additional 20 steps with the ending angles to obtain the last
+ steady-state results.
+ In second row of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we fix 
+\begin_inset Formula $\theta_{2}=\pi/2$
+\end_inset
+
+, first study the situation with the neighbor regions.
+ We transfer 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ to 
+\begin_inset Formula $3\pi/4$
+\end_inset
+
+, which correspond to transfer from (
+\begin_inset Formula $1,1$
+\end_inset
+
+) to (
+\begin_inset Formula $0,1)$
+\end_inset
+
+ (red star to green star) and when we transfer 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $3\pi/4$
+\end_inset
+
+ to 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ which inverse the evolution process.
+ From the former parts, we learn that bound state can be preserved between
+ (
+\begin_inset Formula $1,1$
+\end_inset
+
+) and (
+\begin_inset Formula $0,1$
+\end_inset
+
+), similarly (
+\begin_inset Formula $1,0$
+\end_inset
+
+).
+ So here we study a built bound evolve to another non-trivial region.
+ We can easily observe from the simulate result that bound state still exist
+ after transferring to another non-trivial phase with different evolution
+ velocity.
+ The conclusion here is that the bound state will maintain between neighbor
+ non-trivial phase (similar for (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $1,1$
+\end_inset
+
+)).
+ This could be understood by existence of two eigenstates in region (
+\begin_inset Formula $1,1$
+\end_inset
+
+), and one of the eigenstate has the same eigenenrgy (0 or 
+\begin_inset Formula $\pi$
+\end_inset
+
+) with neighbor region.
+\end_layout
+
+\begin_layout Standard
+Then we study 
+\begin_inset Formula $\theta_{2}=-\pi/2$
+\end_inset
+
+, transfer 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ to 
+\begin_inset Formula $3\pi/4$
+\end_inset
+
+, which correspond to transfer from (
+\begin_inset Formula $0,0$
+\end_inset
+
+) to (
+\begin_inset Formula $0,1$
+\end_inset
+
+) (pink square to orange square) and when we transfer 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $3\pi/4$
+\end_inset
+
+ to 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ which inverse the evolution process.
+ Here we study if bound state will be built (destroyed) from trivial (non-trivia
+l) to non-trivial (trivial) phase.
+ The results are in third row of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.The particle evolves from the trivial phase to the non-trivial phase, we
+ can know that the bound state can not be built; inversely, the bound state
+ first build in the non-trivial phase.
+ After evolving to the trivial phase, the bound state disappears.
+ The conclusion in this situation: the bound state will not build between
+ neighbor non-trivial and trivial phase (similar for (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $0,0$
+\end_inset
+
+)), for (
+\begin_inset Formula $\nu_{0},\nu_{\pi}$
+\end_inset
+
+) will not change under Unitary evolution.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+2.
+ Dynamics between non-neighbor regions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_6.svg
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:6"
+
+\end_inset
+
+Dynamical evolution between non-neighbor topological phase.
+ The particle is prepared on the 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+.
+ The first 20 steps are used for building steady-state and another 40 steps
+ which transfers the particle to another phase under different velocity.
+ Final 20 steps to obtain the steady-state in the final region.
+ Then different dynamics (slow but non-adiabatic with different speed and
+ quench process) The second row corresponds to the evolution between (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $0,1$
+\end_inset
+
+), two paths are selected, one fixes 
+\begin_inset Formula $\theta_{2}=\pi/4$
+\end_inset
+
+ which across (
+\begin_inset Formula $1,1$
+\end_inset
+
+) and another fixes 
+\begin_inset Formula $\theta_{2}=-\pi/4$
+\end_inset
+
+ which across the regions (
+\begin_inset Formula $0,0$
+\end_inset
+
+).
+ The third row studies to the evolution between (
+\begin_inset Formula $1,1$
+\end_inset
+
+) and (
+\begin_inset Formula $0,0$
+\end_inset
+
+), which corresponds to cyan circle (
+\begin_inset Formula $\pi/4,\pi/2$
+\end_inset
+
+) and purple circle (
+\begin_inset Formula $\pi/4,-\pi/2$
+\end_inset
+
+).
+ The result shows that the bound state will not be preserved between non-neighbo
+r.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/fig_7.svg
+	width 8.5cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:7"
+
+\end_inset
+
+Particular case of dynamical evolution between different topological phase.
+ The particle is prepared on the 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+.
+ The first 10 steps are for building steady-state and another 50 steps which
+ transfers the particle to another phase under different velocity.
+ Final 20 steps to obtain the steady-state in the final region.
+ (left column) shows the dynamical evolution between regions with single
+ eigenstate.
+ 
+\begin_inset Formula $\text{\ensuremath{\theta_{1}}}$
+\end_inset
+
+ 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+transfers from
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ 
+\begin_inset Formula $\pi$
+\end_inset
+
+ to 
+\begin_inset Formula $-\pi$
+\end_inset
+
+, which corresponds to transfering from (
+\begin_inset Formula $1,0$
+\end_inset
+
+) to (
+\begin_inset Formula $0,1$
+\end_inset
+
+).
+ In the second row 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ is set to be 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ and the third row is 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ The different colors of the curve correspond to the different velocities
+ in the first one.
+ We can observe that faster the evolution is, larger the bound state is
+ preserved.
+ (right column) studies the result with disorder.
+ 
+\begin_inset Formula $\xi$
+\end_inset
+
+ is set to be 10 (slow but non-adabatic conditions), bound state rarely
+ exist after the evolution in this condition.
+ However, adding random disorder to the rotation angle enhance the possibility
+ of residue at the boundary and stablize the bound state (reduce the oscillation
+ patterns in the former plot), which is similar to the Hall responds in
+\begin_inset CommandInset citation
+LatexCommand citep
+key "hu2016dynamical"
+literal "false"
+
+\end_inset
+
+.
+ The plot is the average of 50 random sampling of 
+\begin_inset Formula $\delta$
+\end_inset
+
+.
+ From the second row and third row, we observe that higher disorder strength
+ is, larger the bound state is preserved.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Here we study the condition when across the phase boundary twice.
+ In this condition, two phases are not adjacent, the particle has to pass
+ the region with one eigenstate to reach the final region.we set 
+\begin_inset Formula $\theta_{1}=\pi/4$
+\end_inset
+
+.
+ We transfer 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ from 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+ to 
+\begin_inset Formula $-\pi/2$
+\end_inset
+
+, which correspond to transfer from (
+\begin_inset Formula $1,1$
+\end_inset
+
+) to (
+\begin_inset Formula $0,0$
+\end_inset
+
+) (cyan circle to purple circle) and when we transfer 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ from 
+\begin_inset Formula $-\pi/2$
+\end_inset
+
+ to 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+ which inverse the evolution process.
+ The plots show that the bound state will not build when evolution from
+ the phase with two eigenstates and trivial phase, quench or slow non-adiabatic
+ process.
+ Similar condition for transfer between (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $0,1$
+\end_inset
+
+).
+ We set 
+\begin_inset Formula $\theta_{2}=\pi/4$
+\end_inset
+
+ or 
+\begin_inset Formula $-\pi/4$
+\end_inset
+
+ to be fixed and transfer between 
+\begin_inset Formula $\theta_{1}=-\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+.
+ Two different path, one crosses the (
+\begin_inset Formula $1,1$
+\end_inset
+
+) and another across (
+\begin_inset Formula $0,0$
+\end_inset
+
+), the result both no bound state could be built or preserved.
+\end_layout
+
+\begin_layout Standard
+In the former situations, it seems that the results are not associated with
+ the evolution velocity.
+ However, there is an exception condition: when transfer between two soliton
+ in (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $0,1$
+\end_inset
+
+).
+ Both regions have only one eigenstate, with different eigenenergies.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ is fixed to be 
+\begin_inset Formula $\pi/4$
+\end_inset
+
+ in second row and 
+\begin_inset Formula $0$
+\end_inset
+
+ in third row.
+ 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ is changed from 
+\begin_inset Formula $\pi$
+\end_inset
+
+ to 
+\begin_inset Formula $-\pi$
+\end_inset
+
+ ((
+\begin_inset Formula $0,1$
+\end_inset
+
+) to (
+\begin_inset Formula $1,0$
+\end_inset
+
+)).
+ The possibility of bound state 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ after evolution will reduced as the increment of 
+\begin_inset Formula $\xi$
+\end_inset
+
+, which corresponding the slower evolution.
+ In second row of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ 
+\begin_inset Formula $\theta_{2}=\pi/4$
+\end_inset
+
+, the bound state seems to have the pattern of oscillation, which can be
+ explained by across the third region (
+\begin_inset Formula $1,1$
+\end_inset
+
+) during the process comparing to the third row, which 
+\begin_inset Formula $\theta_{2}=0$
+\end_inset
+
+ will not cross a third region.
+ In the plots we could know that as increasing of 
+\begin_inset Formula $\xi$
+\end_inset
+
+, 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ become smaller.
+ 
+\begin_inset Formula $\xi=10$
+\end_inset
+
+ is an example of nearly no bound state is preserved.
+ However, inducing additional disorder here is defined as the random rotation
+ angle error (
+\begin_inset Formula $\theta_{2}\in[\theta-\delta,\theta+\delta]$
+\end_inset
+
+)) could help 
+\begin_inset Quotes eld
+\end_inset
+
+store
+\begin_inset Quotes erd
+\end_inset
+
+ the bound, even more stable.
+ The strength of different disorders (
+\begin_inset Formula $\delta$
+\end_inset
+
+) is shown in the second plot of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The random disorder is simulated by the average of 50 times result.
+ As the increment of disorder strength 
+\begin_inset Formula $\delta$
+\end_inset
+
+, the possibility of the remained bound state will also increase.
+ The conclusion of the special situation is when transferring between the
+ solution in phase with single bound state but different energies, the bound
+ state will remain in "quench style" (small 
+\begin_inset Formula $\xi$
+\end_inset
+
+) and "adiabatic style" (large 
+\begin_inset Formula $\xi$
+\end_inset
+
+) with disorder.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+3.
+ Dynamics under different time-frames and symmetries
+\emph default
+ Here we study the condition which (
+\begin_inset Formula $\theta_{1},\theta_{2}$
+\end_inset
+
+) does not change while quenching to another time-frame or suddenly inducing
+ operation to break the symmetry.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename fig_11.pdf
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:8"
+
+\end_inset
+
+Dynamics under different time-frames and symmetries.
+ First 20 steps is used to built steady-state, then in first plot quench
+ to another time-frame, in the second plot quenchs to another QW break PHS.
+ In the first plot, red one correponds to 
+\begin_inset Formula $U(\theta_{1},\theta_{2})=S_{-}C(\theta_{2})S_{+}C(\theta_{1})$
+\end_inset
+
+, the green one correponds to 
+\begin_inset Formula $U_{1}(\theta_{1},\theta_{2})$
+\end_inset
+
+, the orange one correponds to 
+\begin_inset Formula $U_{2}(\theta_{1},\theta_{2})$
+\end_inset
+
+ which preserve CS as mentioned above and the blue one correponds to 
+\begin_inset Formula $U(\theta_{2},\theta_{1})$
+\end_inset
+
+.
+ In the second plot, purple one orreponds to 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+, green (
+\begin_inset Formula $\chi=\pi/4$
+\end_inset
+
+) and red (
+\begin_inset Formula $\chi=\pi/2$
+\end_inset
+
+) one correponds to the first methods to break PHS, blue (
+\begin_inset Formula $\chi=\pi/4$
+\end_inset
+
+) and orange (
+\begin_inset Formula $\chi=\pi/2$
+\end_inset
+
+) one correponds to the second methods to break PHS.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In first plot of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:10"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we study the dynamics of the bound state when suddenly quenching to another
+ time frame: 1) change order of 
+\begin_inset Formula $\theta_{1},\theta_{2}$
+\end_inset
+
+: 
+\begin_inset Formula $U(\theta_{2},\theta_{1})$
+\end_inset
+
+ 2) change to time frame preserve CS: 
+\begin_inset Formula $U_{1}(\theta_{1},\theta_{2})$
+\end_inset
+
+ 3)
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+change to time frame preserve CS:
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $U_{2}(\theta_{1},\theta_{2})$
+\end_inset
+
+ (Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+).
+ And then 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+focus on break PHS in second plot of Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:10"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, which can be easily break with the coin operation mentioned in Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ CS can also be broken with four steps quantum walk suggested in
+\begin_inset CommandInset citation
+LatexCommand citep
+key "asboth2013bulk"
+literal "false"
+
+\end_inset
+
+.
+ We can consider two methods to break PHS: 1) 
+\begin_inset Formula $U_{\text{break1}}=S_{+}R\left(\theta_{1},\chi\right)S_{-}R\left(\theta_{2}\right)$
+\end_inset
+
+ 2) 
+\begin_inset Formula $U_{\text{break2}}=S_{+}R\left(\theta_{1},\chi\right)S_{-}R\left(\theta_{2},\chi\right)$
+\end_inset
+
+.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:10"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we show the band structure of this two methods, when setting 
+\begin_inset Formula $\theta_{1}=\pi/4$
+\end_inset
+
+, 
+\begin_inset Formula $\theta_{2}=\pi/2$
+\end_inset
+
+.
+ First 20 steps SSQW is used to build steady-state, then suddenly quenching
+ to another time-frame or break the symmetries.
+ The result shows the the time-frame 
+\begin_inset Formula $U(\theta_{1},\theta_{2})$
+\end_inset
+
+ and 
+\begin_inset Formula $U_{1}(\theta_{1},\theta_{2})$
+\end_inset
+
+ are very close with only slightly different effects on the stability of
+ bound state.
+ The second plot shows the behavior of bound state when inducing 
+\begin_inset Formula $\sigma_{z}$
+\end_inset
+
+ terms in the coin operations.
+ Blue, orange curves shows the single 
+\begin_inset Formula $\sigma_{z}$
+\end_inset
+
+ terms and green, red curves shows inducing 
+\begin_inset Formula $\sigma_{z}$
+\end_inset
+
+ terms in both coin operations.
+ It's natural to find that the smaller 
+\begin_inset Formula $\chi$
+\end_inset
+
+ is, the less bound state will be affected.
+ After changing time-frame and breaking symmetry, the bound state will reduce
+ but still exist.
+\end_layout
+
+\begin_layout Section
+CONCLUSION
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:6"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In this paper, we discuss the proposal to realize QW in phonon space with
+ carefully designed laser sequence.
+ The boundary condition will determine parameters region for the vacuum.
+ Bound state will appear under the non-trivial phase without the need of
+ spatial-dependent coin operation.
+ By this convenience, the system can be used to study the Unitary evolution
+ of the bound state under different dynamical processes.
+ The behaviors of bound state will not be influenced by the velocity when
+ evolution between neighbor regions, two eigenstates region and vacuum.
+ The bound will only preserve between single eigenstate regions and two
+ eigenstates region.
+ The result will be determined by velocity when considering the evolution
+ between single eigenstate regions with disparate eigenenergy.
+ The bound state will remain more when the evolution is more close to quench
+ dynamics.
+ When introducing disorder slow non-adiabatic dynamics bound state also
+ appear as the increasing of disorder strength.
+ We give reasonable explanation for the conclusion above.
+\end_layout
+
+\begin_layout Standard
+So after the operation, when considering the boundary condition (
+\begin_inset Formula $i=0$
+\end_inset
+
+): equivalently particle experiences first rotation 
+\begin_inset Formula $R(\theta_{1})$
+\end_inset
+
+, then 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+ will flipping to 
+\begin_inset Formula $|0\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ under 
+\begin_inset Formula $|0\rangle\langle0|\otimes|\uparrow\rangle\langle\downarrow|$
+\end_inset
+
+, while 
+\begin_inset Formula $|0\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ walks left.
+ If 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ is set to be zero, the model is exactly same as QW with boundary in Eq.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:sup_1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The minus sign in 
+\begin_inset Formula $S_{x>0}^{\pm}$
+\end_inset
+
+ come from step two, three, five, six, where flipping a cycle between 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ bring this.
+ This two sign could be adjusted 
+\begin_inset Formula $\pm$
+\end_inset
+
+ with introducing relative 
+\begin_inset Formula $\pi$
+\end_inset
+
+phase between step two and three, step five and six; also a minus sign is
+ introduced when step three has a 
+\begin_inset Formula $\pi$
+\end_inset
+
+ phase shifting.
+ 
+\begin_inset Formula $\phi$
+\end_inset
+
+ phase except 
+\begin_inset Formula $0,\pi$
+\end_inset
+
+ is realized after step three, when only 
+\begin_inset Formula $|0\rangle\otimes|\uparrow\rangle$
+\end_inset
+
+ is occupied for 
+\begin_inset Formula $|\uparrow\rangle$
+\end_inset
+
+ with introducing state-dependent phase 
+\begin_inset Formula $\phi$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+\start_of_appendix
+Simple semi-infinite QW
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:A"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To understand the character of the bound state, we consider a simple semi-infini
+te QW as the form of 
+\begin_inset Formula $U_{x}=S_{x}R(\theta)$
+\end_inset
+
+ (
+\begin_inset Formula $x=0,1,2,\cdots$
+\end_inset
+
+) , where 
+\begin_inset Formula $S_{x}$
+\end_inset
+
+ is site-dependent
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+S_{\text{0 }} & =|1\rangle\langle0|\otimes|\uparrow\rangle\left\langle \uparrow\left|+e^{i\phi}\right|0\right\rangle \langle0|\otimes|\uparrow\rangle\langle\downarrow| & ,\nonumber \\
+S_{x>0} & =\sum_{i}|n-1\rangle\langle n|\otimes|\downarrow\rangle\langle\downarrow|+|n+1\rangle\langle n|\otimes|\uparrow\rangle\langle\uparrow|\label{eq:sup_1}
+\end{eqnarray}
+
+\end_inset
+
+and the coin operator 
+\begin_inset Formula $R(\theta)$
+\end_inset
+
+ homogeneous.
+ There may be an additional phase 
+\begin_inset Formula $\phi$
+\end_inset
+
+ accumulated at site 
+\begin_inset Formula $0$
+\end_inset
+
+.
+ It is easy to test that 
+\begin_inset Formula $\phi=0$
+\end_inset
+
+ or 
+\begin_inset Formula $\pi$
+\end_inset
+
+ according to the requirement of the particle hole symmetry (PHS).
+ The bulk of the QW shows non-trivial winding thus it is a topological non-trivi
+al phase.
+ When it interferes with the vacuum, the bound state will appear at the
+ boundary (
+\begin_inset Formula $x=0$
+\end_inset
+
+) and the energy gap will only close at 
+\begin_inset Formula $k=0(\pi)$
+\end_inset
+
+ with the eigen-enenergy with 
+\begin_inset Formula $0(\pi)$
+\end_inset
+
+.
+ The wave function can be solved analytically (
+\begin_inset Formula $U_{x}\left|\psi\right\rangle =e^{-iE_{b}}\left|\psi\right\rangle $
+\end_inset
+
+) 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kitagawa2012"
+literal "false"
+
+\end_inset
+
+ in this situation, for example:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+\left|\psi^{E=0}(i)\right\rangle  & =\frac{1}{\mathcal{N}}(-1)^{i}e^{-i/\lambda}\otimes\left(\begin{array}{c}
+1-\sqrt{2}\\
+1
+\end{array}\right)
+\end{eqnarray}
+
+\end_inset
+
+for 
+\begin_inset Formula $\theta=\pi/2$
+\end_inset
+
+, 
+\begin_inset Formula $\phi=0$
+\end_inset
+
+, where 
+\begin_inset Formula $\lambda=-\frac{1}{\log(\sqrt{2}-1)}$
+\end_inset
+
+ is the localization parameter and 
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+
+\begin_inset Formula $\mathcal{N}$
+\end_inset
+
+ is the normalization parameter.
+ It is clear that there exist an exponent decay bound state which is the
+ eigenstate of system with eigenenergy 
+\begin_inset Formula $E=0$
+\end_inset
+
+ in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:sup_1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+The particle is initially prepared on 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+.
+ After 50 steps, a exponent decay state appears at the boundary.
+ The fitting localization parameter is close to 
+\begin_inset Formula $\lambda$
+\end_inset
+
+.
+ The bound state will not be the exactly same state as the eigenstate solved,
+ because we do not prepare the particle onto the eigenstate and there will
+ have possibility of leaking to the bulk.
+ We could also take this model into our 
+\begin_inset Quotes eld
+\end_inset
+
+cut link
+\begin_inset Quotes erd
+\end_inset
+
+ discussion in the main text: the bulk SSQW with parameter 
+\begin_inset Formula $\theta_{1}=\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{2}=0$
+\end_inset
+
+, and the boundary condition 
+\begin_inset Formula $\phi=0$
+\end_inset
+
+.
+ With setting 
+\begin_inset Formula $\theta_{2}=0$
+\end_inset
+
+, which corresponds to a horizontal line in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+a right phase diagram, crossing two regions in the phase diagram: 
+\begin_inset Formula $0\leq\theta_{1}\leq2\pi$
+\end_inset
+
+, 
+\begin_inset Formula $E=0$
+\end_inset
+
+; and when 
+\begin_inset Formula $-2\pi\leq\theta_{1}\leq0$
+\end_inset
+
+, 
+\begin_inset Formula $E=\pi$
+\end_inset
+
+.
+ Same results of eigen-energy could also be derivated from the analytical
+ solution above.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_1.svg
+	width 8cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sup_1"
+
+\end_inset
+
+The simulation result with 
+\begin_inset Formula $\theta=\pi/2$
+\end_inset
+
+ (or 
+\begin_inset Formula $\theta_{1}=\pi/2,\theta_{2}=0$
+\end_inset
+
+ ).
+ The histogram shows the possibility distribution after 50 steps and the
+ orange line is the analytical solution of eigen-state.
+ Two subplots are the mean and variance of QW verse steps.
+ QW with boundary still represents acceleration of the random walk which
+ shows the quadratic increment of deviation.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sign of bound state
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:B"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In Fig.
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:sup_3"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, the signs of bound state is shown.
+ Wave fuction in (
+\begin_inset Formula $0,1$
+\end_inset
+
+) with a single 
+\begin_inset Formula $E=\pi$
+\end_inset
+
+ bound is predicted to appear a minus signs after each steps, while in 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ with a single 
+\begin_inset Formula $E=0$
+\end_inset
+
+ bound state will not.
+ After several steps building up steady-state, the signs at 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle ,\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
+\end_inset
+
+ also become stable.
+ In 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+, the signs of (
+\begin_inset Formula $\left|\downarrow\right\rangle ,\left|\uparrow\right\rangle s$
+\end_inset
+
+) are always (
+\begin_inset Formula $-+$
+\end_inset
+
+) however in 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ the signs will change between (
+\begin_inset Formula $--$
+\end_inset
+
+) and (
+\begin_inset Formula $++$
+\end_inset
+
+), which agrees the discussion above.
+ So different single bound state could be distinguish.
+ What's more, as interference patterns of the region with two boundary will
+ appear and no boundary state at the vacuum phase.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_2.svg
+	width 8cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sup_3"
+
+\end_inset
+
+Signs of bound state in different regions under SSQW.
+ The first parameters (
+\begin_inset Formula $\pi/2,\pi/4$
+\end_inset
+
+) in 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ region, corresponds to a single 
+\begin_inset Formula $E=\pi$
+\end_inset
+
+ eigenstate and the second parameter (-
+\begin_inset Formula $\pi/2,\pi/4$
+\end_inset
+
+) in (
+\begin_inset Formula $1,0$
+\end_inset
+
+) region, corresponds to a single 
+\begin_inset Formula $E=0$
+\end_inset
+
+ eigenstate.
+ The initial state is prepared onto 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+.
+ The red line in the plot shows the signs of 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ and the blue one shows 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ when setting initial state as the criterion.
+ It could be seen in the plot: after several steps to build up steady state
+ at boundary, each steps in 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+ will change the sign of wavefunction distribution at the boundary and walk
+ in 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ will not change.
+ It could help to distinguish 
+\begin_inset Formula $E=0$
+\end_inset
+
+ and 
+\begin_inset Formula $E=\pi$
+\end_inset
+
+ eigenstate.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Real Experiment Time-steps
+\end_layout
+
+\begin_layout Standard
+In the discussion above, all the time-step numbers are set to be large enough
+ to explain the physics behind.
+ Here we use the as little as possible to create feasible experiment conditions.
+ First of all, when considering observing bound state, it could be known
+ from Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+: 10 steps (or less) is enough for some parameters (for example, blue curves)
+ to build and observe steady bound state in the experiment.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:5"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we also know that 10 steps are enough for distinguishing between different
+ sign (eigenenergy) of the steady bound state.
+ In Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:12"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, we simulate the result after 10 steps with the same parameters as Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ Basically, boundary between two adjacent phases could be observed while
+ sharpness inside one phase (
+\begin_inset Formula $\varepsilon=\pi/2$
+\end_inset
+
+ eigenstate) could not be seen.
+ The boundary will be more clear when increasing the time-steps.
+\end_layout
+
+\begin_layout Standard
+Second, we consider dynamics between different phase.
+ It's easy to understand that it will cost more steps for you need to build
+ steady-state in one region first then build steady-state in another phase.
+ As in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+, quench and slow but non-adiabatic transition between two phase give similar
+ results.
+ It's expected to be 10 steps or less to build steps then quenching to another
+ phase, evolving for another 10 steps for steady.
+ Then the results in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for non-adiabatic with disordering, process between two phase needs to
+ be considered.
+ Simulation results with fewer steps are shown in Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:13"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ In (a), total 20 steps for quenching between different phases ((
+\begin_inset Formula $\pi/4,\pi/2$
+\end_inset
+
+) for (
+\begin_inset Formula $1,1$
+\end_inset
+
+), (
+\begin_inset Formula $\pi/4,-\pi/2$
+\end_inset
+
+) for (
+\begin_inset Formula $1,0$
+\end_inset
+
+) and (
+\begin_inset Formula $3\pi/4,\pi/2$
+\end_inset
+
+) for (
+\begin_inset Formula $0,1$
+\end_inset
+
+); (
+\begin_inset Formula $-\pi/2,\pi/4$
+\end_inset
+
+) for (
+\begin_inset Formula $1,0$
+\end_inset
+
+), (
+\begin_inset Formula $\pi/2,\pi/4$
+\end_inset
+
+) for (
+\begin_inset Formula $0,1$
+\end_inset
+
+)).
+ Similar results as mentioned former could be observed (only the bound state
+ of blue curve remains).
+ In (b) total 26 steps are constituted by 7 steps for steady-state in the
+ first phase then 12 steps non-adiabatic switching parameters to another
+ phase with different disorder strength and final 7 steps for steady-state
+ in another phase.
+ Disorder enhanced 
+\begin_inset Formula $P_{Loc}$
+\end_inset
+
+ is shown in this plot.
+ 
+\begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_3.svg
+	width 8.6cm
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:sup_2"
+
+\end_inset
+
+Simulation result of localization possibility after 10 steps verse different
+ SSQW setting.
+ The parameters are same as Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+(b) (50 steps).
+ (a) is the plot for 
+\begin_inset Formula $\varphi=0$
+\end_inset
+
+ and fix one of 
+\begin_inset Formula $\theta_{1,2}$
+\end_inset
+
+ and scan over another while (b) is the plot for 
+\begin_inset Formula $\varphi=\pi$
+\end_inset
+
+.
+ Simulation of dynamics with fewer steps.
+ In (c), the initial state 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+ first builds steady-state in different phase (8 steps) than quenching (at
+ the dashed line) to another phase for steady (12 steps).
+ In (d), the initial state first builds steady-state in (
+\begin_inset Formula $1,0$
+\end_inset
+
+) (7 steps) then non-adiabatic transferring to (
+\begin_inset Formula $0,1$
+\end_inset
+
+) (6 steps), finally evolve in (
+\begin_inset Formula $0,1$
+\end_inset
+
+) (7 steps) for steady.
+ The parameters used are same as Fig.
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:7"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:8"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+High dimensional QW
+\end_layout
+
+\begin_layout Standard
+Two dimensional QW suggested in Ref.
+\begin_inset CommandInset citation
+LatexCommand citep
+key "PhysRevA.82.033429,chen2018observation,yan2019strongly,sajid2019creating,li2020two"
+literal "false"
+
+\end_inset
+
+, which could be associated with non-trivial Chern numbers and more complex
+ Floquet band structure.
+ This idea could also be realized based on our proposal.
+ Single step with two coin operations and two walk operations:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{eqnarray}
+U=S_{y}R(\theta_{2})S_{x}R(\theta_{1}),
+\end{eqnarray}
+
+\end_inset
+
+where 
+\begin_inset Formula $S_{x}=\sum_{x,y}\left|x+1,y\right\rangle \left\langle x,y\right|\otimes\left|\uparrow\right\rangle \left\langle \uparrow\right|+\left|x-1,y\right\rangle \left\langle x,y\right|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+ and 
+\begin_inset Formula $S_{y}=\sum_{x,y}\left|x,y+1\right\rangle \left\langle x,y\right|\otimes\left|\uparrow\right\rangle \left\langle \uparrow\right|+\left|x,y-1\right\rangle \left\langle x,y\right|\otimes\left|\downarrow\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+, x,y are independent freedoms here.
+ 
+\begin_inset Formula $R(\theta)$
+\end_inset
+
+ also means rotation of the spin around y axis by angle 
+\begin_inset Formula $\theta$
+\end_inset
+
+ here.
+ Based on this proposal, CS bound state can exist at the interface of Floquet
+ insulators even whose Chern numbers vanish, which is the unique phenomena
+ in Periodically driven systems
+\begin_inset CommandInset citation
+LatexCommand citep
+key "Kitagawa2012,chen2018observation"
+literal "false"
+
+\end_inset
+
+.
+ In our proposal, two dimensions of the particle propagation are encoded
+ onto two motional modes of a single trapped ion: for example, the axis
+ mode and radial mode with cooling and resolved frequency 
+\begin_inset Formula $\omega_{z}$
+\end_inset
+
+, 
+\begin_inset Formula $\omega_{r}$
+\end_inset
+
+.
+ What's more, Raman beams are needed in both axis and radial direction.
+ Based on the former 1D SSQW proposal and set 
+\begin_inset Formula $\theta_{2}=0$
+\end_inset
+
+, 
+\begin_inset Formula $S_{x,y}R(\theta)$
+\end_inset
+
+ can be realized with suitable Raman beams detuning of motional modes.
+ Of course, this 2D model has two reflecting boundary for 
+\begin_inset Formula $x,y\geq0$
+\end_inset
+
+.
+ Based on this idea, arbitrary dimensional quantum walk can be realized.
+ More motional modes will enlarge the motional space in the high dimensional
+ QW with the ability of resolved sideband transition.
+ And this high dimensional quantum walk (more than 2D) can not be reached
+ in the system which walk state is encoded on position or path.
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintAll"
+bibfiles "qw"
+options "bibtotoc,apsrev4-1"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
