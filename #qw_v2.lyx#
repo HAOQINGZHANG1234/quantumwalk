@@ -4803,8 +4803,7 @@ noprefix "false"
 \end_inset
 
 (b) (50 steps).
- a.
- is the plot for 
+ (a) is the plot for 
 \begin_inset Formula $\varphi=0$
 \end_inset
 
@@ -4812,20 +4811,19 @@ noprefix "false"
 \begin_inset Formula $\theta_{1,2}$
 \end_inset
 
- and scan over another while b.
- is the plot for 
+ and scan over another while (b) is the plot for 
 \begin_inset Formula $\varphi=\pi$
 \end_inset
 
 .
  Simulation of dynamics with fewer steps.
- In c, the initial state 
+ In (c), the initial state 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
 \end_inset
 
  first builds steady-state in different phase (8 steps) than quenching (at
  the dashed line) to another phase for steady (12 steps).
- In d, the initial state first builds steady-state in 
+ In (d), the initial state first builds steady-state in 
 \begin_inset Formula $(1,0)$
 \end_inset
 
@@ -4839,7 +4837,6 @@ noprefix "false"
 
  (7 steps) for steady.
  The parameters used are same as Fig.
- 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:7"
@@ -4888,7 +4885,6 @@ High dimensional QW
 
 \begin_layout Standard
 Two dimensional QW suggested in Ref.
- 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "PhysRevA.82.033429,chen2018observation,yan2019strongly,sajid2019creating,li2020two"
@@ -4934,7 +4930,7 @@ where
  here.
  Based on this proposal, CS bound state can exist at the interface of Floquet
  insulators even whose Chern numbers vanish, which is the unique phenomena
- in Periodically driven systems 
+ in Periodically driven systems
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kitagawa2012,chen2018observation"
