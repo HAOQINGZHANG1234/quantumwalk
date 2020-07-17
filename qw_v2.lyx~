@@ -3768,8 +3768,100 @@ In this paper, we discuss the proposal to realize QW in phonon space with
  The bound state will remain more when the evolution is more close to quench
  dynamics.
  When introducing disorder, slow non-adiabatic dynamics bound state also
- appear as increasing of disorder strength.
+ appear as  increasing of disorder strength.
  We give reasonable explanation for the conclusion above.
+\end_layout
+
+\begin_layout Standard
+So after the operation, when considering the boundary condition (
+\begin_inset Formula $i=0$
+\end_inset
+
+): equivalently particle experiences first rotation 
+\begin_inset Formula $R(\theta_{1})$
+\end_inset
+
+, then 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
+\end_inset
+
+ will flipping to 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
+\end_inset
+
+ under 
+\begin_inset Formula $\left|0\right\rangle \left\langle 0\right|\otimes\left|\uparrow\right\rangle \left\langle \downarrow\right|$
+\end_inset
+
+, while 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
+\end_inset
+
+ walks left.
+ If 
+\begin_inset Formula $\theta_{2}$
+\end_inset
+
+ is set to be zero, the model is exactly same as QW with boundary in Eq.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:sup_1"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+ The minus sign in 
+\begin_inset Formula $S_{x>0}^{\pm}$
+\end_inset
+
+ come from step two, three, five, six, where flipping a cycle between 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ and 
+\begin_inset Formula $\left|\downarrow\right\rangle $
+\end_inset
+
+ bring this.
+ This two sign could be adjusted 
+\begin_inset Formula $\pm$
+\end_inset
+
+ with introducing relative 
+\begin_inset Formula $\pi$
+\end_inset
+
+ phase between step two and three, step five and six; also a minus sign
+ is introduced when step three has a 
+\begin_inset Formula $\pi$
+\end_inset
+
+ phase shifting.
+ 
+\begin_inset Formula $\phi$
+\end_inset
+
+ phase except 
+\begin_inset Formula $0,\pi$
+\end_inset
+
+ is realized after step three, when only 
+\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
+\end_inset
+
+ is occupied for 
+\begin_inset Formula $\left|\uparrow\right\rangle $
+\end_inset
+
+ with introducing state-dependent phase 
+\begin_inset Formula $\phi$
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Section

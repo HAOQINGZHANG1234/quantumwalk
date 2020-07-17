@@ -92,6 +92,7 @@ subequations
 \begin_body
 
 \begin_layout Standard
++=
 \begin_inset Note Note
 status collapsed
 
@@ -2512,7 +2513,7 @@ noprefix "false"
 a).
  Except the phase boundary between different regions, soliton will also
  appear inside one regime, which corresponds to 
-\begin_inset Formula $\epsilon=\pi/2$
+\begin_inset Formula $E=\pi/2$
 \end_inset
 
  eigenstate.
@@ -2544,7 +2545,7 @@ After two steps the particle returns to its initial state with an additional
 \begin_inset Formula $E=\pi/2$
 \end_inset
 
- eigenstate exists here, which explains the discontinuityly changing inside
+ eigen-state exists here, which explains the discontinuityly changing inside
  one phase.
  Similar analyses could also be done with red and purple stars.
  While in the non-trivial phase with 
@@ -2563,7 +2564,7 @@ After two steps the particle returns to its initial state with an additional
 \begin_inset Formula $E=0$
 \end_inset
 
- eigenstate exist here:
+ eigen-state exist here:
 \begin_inset Formula 
 \begin{equation}
 \left|0\right\rangle \otimes\left|\downarrow\right\rangle \stackrel{1}{\rightarrow}\left|0\right\rangle \otimes\frac{1}{\sqrt{2}}(-\left|\uparrow\right\rangle +\left|\downarrow\right\rangle )\stackrel{1}{\rightarrow}\left|0\right\rangle \otimes\left|\downarrow\right\rangle .
@@ -2706,7 +2707,8 @@ name "fig:3"
 
 .
  The whole diagram is divided into four different phases.
- (b) simulation results after 50 steps with 
+ b.
+ simulation results after 50 steps with 
 \begin_inset Formula $\phi=0,\pi$
 \end_inset
 
@@ -2717,7 +2719,7 @@ name "fig:3"
 
 .
  Apperance of bound states are represented by 
-\begin_inset Formula $P_{Loc}$
+\begin_inset Formula $P_{\text{Loc}}$
 \end_inset
 
 .
@@ -2729,7 +2731,7 @@ name "fig:3"
 \begin_inset Formula $\theta_{2}=\pi/2$
 \end_inset
 
- dashed line in (a), dash lines and soild lines correspond to two time frames
+ dashed line in a, dash lines and soild lines correspond to two time frames
  introduced in Eq.
  
 \begin_inset CommandInset ref
@@ -2838,7 +2840,18 @@ name "fig:4"
 \end_inset
 
  decay to near zero after about 15 steps when coin in the trivial phase.
- b,c,d.
+ b 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+, c 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, d 
+\begin_inset Formula $(1,1)$
+\end_inset
+
  shows 
 \begin_inset Formula $P_{\text{Loc}}$
 \end_inset
@@ -2846,20 +2859,11 @@ name "fig:4"
  verse steps and phonon numbers.
  Clear bound state could be found at the boundary when coin in the non-trivial
  phase.
- (b) is in the phase 
-\begin_inset Formula $(0,1)$
-\end_inset
-
-, (c) is in the phase 
-\begin_inset Formula $(0,0)$
-\end_inset
-
-, and (d) is in the phase 
-\begin_inset Formula $(1,1)$
+ The brightness shows 
+\begin_inset Formula $P_{\text{Loc}}$
 \end_inset
 
 .
- The brightness shows the possibility.
 \end_layout
 
 \end_inset
@@ -2885,6 +2889,7 @@ name "sec:5"
 
 \begin_layout Standard
 In the Sec.
+ 
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "sec:4"
@@ -2894,16 +2899,12 @@ noprefix "false"
 
 \end_inset
 
-, we have verified the existence of bound states when interfering with .
- In this section we will focus on the dynamics of the bound state.
- We desire to study the behavior of this quasi-equilibrium process under
- different dynamical process.
- Here we will study both quench and slow but non-adiabatic process.
- Notice that under both conditions, topological invariant (
-\begin_inset Formula $\nu_{0},\nu_{\pi}$
-\end_inset
-
-) will not change under unitary dynamics
+, we have verified the existence of bound states when interfering with non-trivi
+al bulk.
+ In this section we study the dynamics of bound state under time-varying
+ bulk parameters, both quenching and slow but non-adiabatic process.
+ Notice that under these process, the unitary dynamcis will not change system's
+ topological invariant 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "caio2015quantum,d2015dynamical"
@@ -2912,10 +2913,7 @@ literal "false"
 \end_inset
 
 .
- It might be a little different because in the continuous slow but non-adiabatic
- process, the particle will come across the phase boundary, the gap will
- close and mixture between excited state and ground state.
- Instead of preparing the system onto ground state as suggested in
+ Instead of preparing the system onto ground state as suggested in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "xu2018measuringd"
@@ -2924,7 +2922,11 @@ literal "false"
 \end_inset
 
 , here steady-state wave function first build in one phase, which character
- as the localization at boundary.
+ as 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+.
  The idea of time-dependent coin operation have been mentioned in 
 \begin_inset CommandInset citation
 LatexCommand citep
@@ -2933,12 +2935,16 @@ literal "false"
 
 \end_inset
 
-, but neither dealing with bound state.
- In this section, we will study how bound state or steady-state response
- to the quench and non-adiabatic process, further with disorder between
- different regions.
- We also studies how changing time-frame and breaking symmetry effects bound
- state.
+, while neither dealing with bound state.
+ Here we show how bound states (steady-state) response to different dynamical
+ process (further with disorder).
+ 
+\color red
+We also study how changing time-frame and breaking symmetry effects bound
+ state -> Maybe put this into sup.
+ inf.
+
+\color inherit
  
 \end_layout
 
@@ -2946,12 +2952,9 @@ literal "false"
 
 \emph on
 1.
- Dynamics between neighbor regions
+ Dynamics between neighbor region
 \emph default
- 
-\end_layout
 
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -2974,15 +2977,16 @@ name "fig:5"
 
 \end_inset
 
- Dynamical evolution between neighbor topological phase.
- The particle is prepared on the 
+ Dynamical evolution between neighbor topological phases.
+ The particle is prepared onto 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
 \end_inset
 
 .
- The first 20 steps are used for building steady-state and another 40 steps
- which transfers the particle to another phase under different velocity.
- Final 20 steps to obtain the steady-state in the final region, 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+is time-varying while 
 \begin_inset Formula $\theta_{2}=\pi/2$
 \end_inset
 
@@ -2990,17 +2994,28 @@ name "fig:5"
 \begin_inset Formula $-\pi/2$
 \end_inset
 
- is fixed for simplification.
- Then different dynamics (slow but non-adiabatic with different speed and
- quench process) The second row studies to the evolution between 
-\begin_inset Formula $(1,1)$
+ is fixed.
+ a.
+ shows phase diagram and parameter points used.
+ b.
+ shows 
+\begin_inset Formula $\theta(t)$
 \end_inset
 
- and 
-\begin_inset Formula $(0,1)$
+ under different dynamical process (from 
+\begin_inset Formula $\theta_{1}^{i}$
 \end_inset
 
-, which corresponds to red star (
+ to 
+\begin_inset Formula $\theta_{1}^{f}$
+\end_inset
+
+).
+ The second row gives 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+verse time when evolving beetween red star (
 \begin_inset Formula $\pi/4,\pi/2$
 \end_inset
 
@@ -3009,17 +3024,16 @@ name "fig:5"
 \end_inset
 
 ).
- The result shows that the bound state will be preserved between the regions
- with two eigenstates and single eigenstate.
- The third row studies the evolution between 
-\begin_inset Formula $(0,1)$
+ The result shows that the bound state will be preserved between 
+\begin_inset Formula $(1,0)$
 \end_inset
 
  and 
-\begin_inset Formula $(0,0)$
+\begin_inset Formula $(1,1)$
 \end_inset
 
-, which corresponds to pink square (
+.
+ The third row studies the evolution between pink square (
 \begin_inset Formula $5\pi/4,-\pi/2$
 \end_inset
 
@@ -3028,9 +3042,16 @@ name "fig:5"
 \end_inset
 
 ).
- The result shows that the bound state will be destroyed between the regions
- with single eigenstate and vacuum.
- The conclusion above have nothing to do with the velocity of the evolution.
+ The result shows that the bound state will be destroyed between 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ and 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+.
+ The results above have nothing to do with the velocity of the evolution.
 \end_layout
 
 \end_inset
@@ -3040,67 +3061,76 @@ name "fig:5"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 Here we study the condition when across the phase boundary once.
- The time-dependent coin operation in slow but non-adiabatic process have
- the form:
+ The time-dependent coin operation under slow but non-adiabatic process
+ (the quench process mentioned in Sec.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:2"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) has the form:
 \end_layout
 
 \begin_layout Standard
 \begin_inset Formula 
 \begin{equation}
-\theta(t)=\frac{\theta_{i}+\theta_{f}}{2}+\frac{\theta_{f}-\theta_{i}}{2}\tanh(\frac{t-t_{0}}{\xi})
+\theta_{1}(t)=\begin{cases}
+\theta_{1}^{i} & t\leq t_{0}-\tau\\
+\frac{\theta_{1}^{i}+\theta_{1}^{f}}{2}+\frac{\theta_{1}^{f}-\theta_{1}^{i}}{2}\tanh(\frac{t-t_{0}}{\xi}) & t_{0}-\tau<t\leq t_{0}+\tau\\
+\theta_{1}^{f} & t_{0}+\tau<t
+\end{cases},
 \end{equation}
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
 where 
 \begin_inset Formula $\xi$
 \end_inset
 
  determine the speed of evolution between two phases.
- As 
+ The evolution tend to be the quench process with small 
 \begin_inset Formula $\xi$
 \end_inset
 
- becomes smaller, the evolution tend to become the quench process; as 
+; and to be the adiabatic evolution with large 
 \begin_inset Formula $\xi$
 \end_inset
 
- becomes bigger, the evolution tend to become the adiabatic evolution.
- 
-\begin_inset Formula $\theta_{i}$
+.
+ First 
+\begin_inset Formula $t_{0}-\tau$
 \end_inset
 
- is the beginning angle for building steady-state and 
-\begin_inset Formula $\theta_{f}$
+ steps for buliding steady-state with 
+\begin_inset Formula $\theta_{1}^{i}$
 \end_inset
 
- is the final angle after the dynamical evolution.
- Another 10-20 steps with the final angle is applied for observe the steady-stat
-e after evolution.
- We fix one rotation angle and change another angle for simplification.
- Here we still focus on bound state, only care about 
+.
+ Final steps after 
+\begin_inset Formula $t_{0}+\tau$
+\end_inset
+
+ for buliding steady-state with 
+\begin_inset Formula $\theta_{1}^{f}$
+\end_inset
+
+.
+ We still character our system with 
 \begin_inset Formula $P_{\text{Loc}}$
 \end_inset
 
 .
- 
-\end_layout
-
-\begin_layout Standard
-In Fig.
+ In Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
-reference "fig:7"
+LatexCommand ref
+reference "fig:5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3108,24 +3138,20 @@ noprefix "false"
 \end_inset
 
 , we simulate dynamics between neighbor regions.
- The particle evolves with initial parameters for 20 steps and then transfers
- to another parameters for 40 steps with different 
-\begin_inset Formula $\xi$
-\end_inset
-
-.
  
 \begin_inset Formula $t_{0}$
 \end_inset
 
- here is set to be 40.
- Finally, additional 20 steps with the ending angles to obtain the last
- steady-state results.
+ is 40 steps and 
+\begin_inset Formula $\tau$
+\end_inset
+
+ is 20 steps here.
  In second row of Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
-reference "fig:7"
+LatexCommand ref
+reference "fig:5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3137,7 +3163,7 @@ noprefix "false"
 \end_inset
 
 , first study the situation with the neighbor regions.
- We transfer 
+ We evolve 
 \begin_inset Formula $\theta_{1}$
 \end_inset
 
@@ -3154,59 +3180,45 @@ noprefix "false"
 \end_inset
 
  to (
-\begin_inset Formula $0,1)$
+\begin_inset Formula $1,0)$
 \end_inset
 
- (red star to green star) and when we transfer 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
- from 
-\begin_inset Formula $3\pi/4$
-\end_inset
-
- to 
-\begin_inset Formula $\pi/4$
-\end_inset
-
- which inverse the evolution process.
- From the former parts, we learn that bound state can be preserved between
- 
-\begin_inset Formula $(1,1)$
-\end_inset
-
- and 
+ (red star to green star) and the inverse process.
+ So we can study how bound states evolve to another non-trivial phase.
+ We can easily observe from the simulation result that bound state exists
+ after transferring to another non-trivial phase regardless of evolution
+ velocity (similar between 
 \begin_inset Formula $(0,1)$
 \end_inset
 
-, similarly 
-\begin_inset Formula $(1,0)$
-\end_inset
-
-.
- So here we study a built bound evolve to another non-trivial region.
- We can easily observe from the simulate result that bound state still exist
- after transferring to another non-trivial phase with different evolution
- velocity.
- The conclusion here is that the bound state will maintain between neighbor
- non-trivial phase (similar for 
-\begin_inset Formula $(1,0)$
-\end_inset
-
-and 
+ and 
 \begin_inset Formula $(1,1)$
 \end_inset
 
 ).
- This could be understood by existence of two eigenstates in region 
+ 
+\color red
+This could be understood by existence of two eigen-states in 
 \begin_inset Formula $(1,1)$
 \end_inset
 
-, and one of the eigenstate has the same eigenenrgy (0 or 
+, then one of the eigen-state has the same eigen-energy (
+\begin_inset Formula $0$
+\end_inset
+
+ or 
 \begin_inset Formula $\pi$
 \end_inset
 
-) with neighbor region.
+) in neighbor phase (
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ or 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+)->not sure if the reason is sufficient here.
 \end_layout
 
 \begin_layout Standard
@@ -3234,26 +3246,14 @@ Then we study
 \begin_inset Formula $(0,1)$
 \end_inset
 
- (pink square to orange square) and when we transfer 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
- from 
-\begin_inset Formula $3\pi/4$
-\end_inset
-
- to 
-\begin_inset Formula $\pi/4$
-\end_inset
-
- which inverse the evolution process.
+ (pink square to orange square) and the inverse process.
  Here we study if bound state will be built (destroyed) from trivial (non-trivia
 l) to non-trivial (trivial) phase.
  The results are in third row of Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
-reference "fig:7"
+LatexCommand ref
+reference "fig:5"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3261,23 +3261,27 @@ noprefix "false"
 \end_inset
 
 .The particle evolves from the trivial phase to the non-trivial phase, we
- can know that the bound state can not be built; inversely, the bound state
- first build in the non-trivial phase.
- After evolving to the trivial phase, the bound state disappears.
+ can know that the bound state will not be built.
+ Inversely, the bound state first build in the non-trivial phase; after
+ evolving to the trivial phase, the bound state disappears.
  The conclusion in this situation: the bound state will not build between
- neighbor non-trivial and trivial phase (similar for 
-\begin_inset Formula $(1,0)$
+ neighbor non-trivial and trivial phase (similar between 
+\begin_inset Formula $(0,1)$
 \end_inset
 
  and 
 \begin_inset Formula $(0,0)$
 \end_inset
 
-), for (
+).
+ 
+\color red
+for (
 \begin_inset Formula $\nu_{0},\nu_{\pi}$
 \end_inset
 
-) will not change under Unitary evolution.
+) will not change under Unitary evolution->not sure if I should say this
+ one.
 \end_layout
 
 \begin_layout Standard
@@ -3285,9 +3289,8 @@ noprefix "false"
 \emph on
 2.
  Dynamics between non-neighbor regions
-\end_layout
+\emph default
 
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -3310,29 +3313,25 @@ name "fig:6"
 
 \end_inset
 
- Dynamical evolution between non-neighbor topological phase.
- The particle is prepared on the 
+ Dynamical evolution between non-neighbor topological phases.
+ The particle is prepared onto 
 \begin_inset Formula $|0\rangle\otimes|\downarrow\rangle$
 \end_inset
 
 .
- The first 20 steps are used for building steady-state and another 40 steps
- which transfers the particle to another phase under different velocity.
- Final 20 steps to obtain the steady-state in the final region.
- Then different dynamics (slow but non-adiabatic with different speed and
- quench process) The second row corresponds to the evolution between 
-\begin_inset Formula $(1,0)$
+ The second row corresponds to the evolution between 
+\begin_inset Formula $(0,1)$
 \end_inset
 
  and 
-\begin_inset Formula $(0,1)$
+\begin_inset Formula $(1,0)$
 \end_inset
 
 , two paths are selected, one fixes 
 \begin_inset Formula $\theta_{2}=\pi/4$
 \end_inset
 
- which across 
+ acrossing 
 \begin_inset Formula $(1,1)$
 \end_inset
 
@@ -3340,12 +3339,12 @@ name "fig:6"
 \begin_inset Formula $\theta_{2}=-\pi/4$
 \end_inset
 
- which across the regions 
+ acrossing the regions 
 \begin_inset Formula $(0,0)$
 \end_inset
 
 .
- The third row studies to the evolution between 
+ The third row studies the evolution between 
 \begin_inset Formula $(1,1)$
 \end_inset
 
@@ -3362,8 +3361,8 @@ name "fig:6"
 \end_inset
 
 .
- The result shows that the bound state will not be preserved between non-neighbo
-r.
+ The result shows that the bound state will be destroyed between non-neighbor
+ topological phase.
 \end_layout
 
 \end_inset
@@ -3373,10 +3372,88 @@ r.
 
 \end_inset
 
+Here we study the condition when the evolution across phase boundary twice.
+ In this condition, two phases are not adjacent.
+ We set fixed 
+\begin_inset Formula $\theta_{1}=\pi/4$
+\end_inset
 
-\end_layout
+, then transfer 
+\begin_inset Formula $\theta_{2}$
+\end_inset
 
-\begin_layout Standard
+ from 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+ to 
+\begin_inset Formula $-\pi/2$
+\end_inset
+
+, which correspond to transfer from 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+ to 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+ (cyan circle to purple circle) and the inverse process.
+ Fig.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:6"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows that the bound state will not be built when evolving between 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+ and 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, quench or slow non-adiabatic process.
+ Similar condition when evolving between 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ and 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+.
+ We set 
+\begin_inset Formula $\theta_{2}=\pi/4$
+\end_inset
+
+ or 
+\begin_inset Formula $-\pi/4$
+\end_inset
+
+ to be fixed and transfer between 
+\begin_inset Formula $\theta_{1}=-\pi/2$
+\end_inset
+
+ and 
+\begin_inset Formula $\pi/2$
+\end_inset
+
+.
+ Two different path, one crosses the 
+\begin_inset Formula $(1,1)$
+\end_inset
+
+ and another across 
+\begin_inset Formula $(0,0)$
+\end_inset
+
+, the result both no bound state could be built or preserved.
 \begin_inset Float figure
 wide false
 sideways false
@@ -3399,17 +3476,24 @@ name "fig:7"
 
 \end_inset
 
- Particular case of dynamical evolution between different topological phase.
- The particle is prepared on the 
+ Particular case of dynamical evolution between 
+\begin_inset Formula $(1,0)$
+\end_inset
+
+ and 
+\begin_inset Formula $(0,1)$
+\end_inset
+
+.
+ The particle is prepared onto 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
 \end_inset
 
 .
- The first 10 steps are for building steady-state and another 50 steps which
- transfers the particle to another phase under different velocity.
+ a,c,e studies the effect of evolution velocity.
+ First 10 steps are for building steady-state and another 50 steps for transferi
+ng the particle to another phase under different velocity.
  Final 20 steps to obtain the steady-state in the final region.
- (left column) shows the dynamical evolution between regions with single
- eigenstate.
  
 \begin_inset Formula $\text{\ensuremath{\theta_{1}}}$
 \end_inset
@@ -3448,16 +3532,7 @@ transfers from
 \begin_inset Formula $-\pi$
 \end_inset
 
-, which corresponds to transfering from 
-\begin_inset Formula $(1,0)$
-\end_inset
-
- to 
-\begin_inset Formula $(0,1)$
-\end_inset
-
-.
- In the second row 
+, in c 
 \begin_inset Formula $\theta_{2}$
 \end_inset
 
@@ -3465,16 +3540,23 @@ transfers from
 \begin_inset Formula $\pi/4$
 \end_inset
 
- and the third row is 
+ and in e is 
 \begin_inset Formula $0$
 \end_inset
 
 .
- The different colors of the curve correspond to the different velocities
- in the first one.
- We can observe that faster the evolution is, larger the bound state is
- preserved.
- (right column) studies the result with disorder.
+ The different colors in c,d correspond to the different velocities in a.
+ We can observe that faster the evolution is, larger 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+is.
+ b,d,f studies the result with disorder.
+ b shows the sketch map of 
+\begin_inset Formula $\theta_{1}$
+\end_inset
+
+ with disorder.
  
 \begin_inset Formula $\xi$
 \end_inset
@@ -3483,7 +3565,9 @@ transfers from
  exist after the evolution in this condition.
  However, adding random disorder to the rotation angle enhance the possibility
  of residue at the boundary and stablize the bound state (reduce the oscillation
- patterns in the former plot), which is similar to the Hall responds in
+ patterns in the former plot), which is similar to the non-trivial Hall
+ responds in Ref.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "hu2016dynamical"
@@ -3497,8 +3581,8 @@ literal "false"
 \end_inset
 
 .
- From the second row and third row, we observe that higher disorder strength
- is, larger the bound state is preserved.
+ From d,f, we observe that larger disorder strength is, more the bound state
+ is preserved.
 \end_layout
 
 \end_inset
@@ -3508,95 +3592,21 @@ literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-Here we study the condition when across the phase boundary twice.
- In this condition, two phases are not adjacent, the particle has to pass
- the region with one eigenstate to reach the final region.we set 
-\begin_inset Formula $\theta_{1}=\pi/4$
-\end_inset
-
-.
- We transfer 
-\begin_inset Formula $\theta_{2}$
-\end_inset
-
- from 
-\begin_inset Formula $\pi/2$
-\end_inset
-
- to 
-\begin_inset Formula $-\pi/2$
-\end_inset
-
-, which correspond to transfer from 
-\begin_inset Formula $(1,1)$
-\end_inset
-
- to 
-\begin_inset Formula $(0,0)$
-\end_inset
-
- (cyan circle to purple circle) and when we transfer 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
- from 
-\begin_inset Formula $-\pi/2$
-\end_inset
-
- to 
-\begin_inset Formula $\pi/2$
-\end_inset
-
- which inverse the evolution process.
- The plots show that the bound state will not build when evolution from
- the phase with two eigenstates and trivial phase, quench or slow non-adiabatic
- process.
- Similar condition for transfer between 
-\begin_inset Formula $(1,0)$
-\end_inset
-
- and 
-\begin_inset Formula $(0,1)$
-\end_inset
-
-.
- We set 
-\begin_inset Formula $\theta_{2}=\pi/4$
-\end_inset
-
- or 
-\begin_inset Formula $-\pi/4$
-\end_inset
-
- to be fixed and transfer between 
-\begin_inset Formula $\theta_{1}=-\pi/2$
-\end_inset
-
- and 
-\begin_inset Formula $\pi/2$
-\end_inset
-
-.
- Two different path, one crosses the 
-\begin_inset Formula $(1,1)$
-\end_inset
-
- and another across 
-\begin_inset Formula $(0,0)$
-\end_inset
-
-, the result both no bound state could be built or preserved.
-\end_layout
-
-\begin_layout Standard
-In the former situations, it seems that the results are not associated with
+In the former results, it seems that the results are not associated with
  the evolution velocity.
- However, there is an exception condition: when transfer between two soliton
- in 
+ However, there is an exception: when evolving between two solitons (as
+ mentioned in Sec.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:4"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+) in 
 \begin_inset Formula $(1,0)$
 \end_inset
 
@@ -3605,12 +3615,16 @@ In the former situations, it seems that the results are not associated with
 \end_inset
 
 .
- Both regions have only one eigenstate, with different eigenenergies.
- In Fig.
+ 
+\begin_inset Formula $P_{\text{Loc}}$
+\end_inset
+
+ after evolution will be affected by the evolution velocit.
+ In second row of Fig.
  
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "fig:8"
+reference "fig:7"
 plural "false"
 caps "false"
 noprefix "false"
@@ -3618,60 +3632,6 @@ noprefix "false"
 \end_inset
 
 , 
-\begin_inset Formula $\theta_{2}$
-\end_inset
-
- is fixed to be 
-\begin_inset Formula $\pi/4$
-\end_inset
-
- in second row and 
-\begin_inset Formula $0$
-\end_inset
-
- in third row.
- 
-\begin_inset Formula $\theta_{1}$
-\end_inset
-
- is changed from 
-\begin_inset Formula $\pi$
-\end_inset
-
- to 
-\begin_inset Formula $-\pi$
-\end_inset
-
- (
-\begin_inset Formula $(0,1)$
-\end_inset
-
- to 
-\begin_inset Formula $(1,0))$
-\end_inset
-
-.
- The possibility of bound state 
-\begin_inset Formula $P_{\text{Loc}}$
-\end_inset
-
- after evolution will reduced as the increment of 
-\begin_inset Formula $\xi$
-\end_inset
-
-, which corresponding the slower evolution.
- In second row of Fig.
- 
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "fig:8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
- 
 \begin_inset Formula $\theta_{2}=\pi/4$
 \end_inset
 
@@ -3680,31 +3640,21 @@ noprefix "false"
 \begin_inset Formula $(1,1)$
 \end_inset
 
- during the process comparing to the third row, which 
+ during the process comparing to the third row, where 
 \begin_inset Formula $\theta_{2}=0$
 \end_inset
 
  will not cross a third region.
- In the plots we could know that as increasing of 
-\begin_inset Formula $\xi$
-\end_inset
-
-, 
-\begin_inset Formula $P_{\text{Loc}}$
-\end_inset
-
- become smaller.
  
 \begin_inset Formula $\xi=10$
 \end_inset
 
  is an example of nearly no bound state is preserved.
- However, inducing additional disorder here is defined as the random rotation
- angle error (
-\begin_inset Formula $\theta_{2}\in[\theta-\delta,\theta+\delta]$
+ However, inducing additional disorder (defined as random error 
+\begin_inset Formula $\theta_{1}\in[\theta-\delta,\theta+\delta]$
 \end_inset
 
-)) could help 
+) here could help 
 \begin_inset Quotes eld
 \end_inset
 
@@ -3721,31 +3671,29 @@ store
  
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "fig:8"
+reference "fig:7"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-.
- The random disorder is simulated by the average of 50 times result.
+, which is simulated by the average of 50 results.
  As the increment of disorder strength 
 \begin_inset Formula $\delta$
 \end_inset
 
 , the possibility of the remained bound state will also increase.
- The conclusion of the special situation is when transferring between the
- solution in phase with single bound state but different energies, the bound
- state will remain in "quench style" (small 
-\begin_inset Formula $\xi$
+ The conclusion of this special situation is when transferring between the
+ solitons between 
+\begin_inset Formula $(0,1)$
 \end_inset
 
-) and "adiabatic style" (large 
-\begin_inset Formula $\xi$
+ and 
+\begin_inset Formula $(1,0)$
 \end_inset
 
-) with disorder.
+, the bound state will remain with disorder.
 \end_layout
 
 \begin_layout Standard
@@ -3754,12 +3702,6 @@ noprefix "false"
 3.
  Dynamics under different time-frames and symmetries
 \emph default
- Here we study the condition which (
-\begin_inset Formula $\theta_{1},\theta_{2}$
-\end_inset
-
-) does not change while quenching to another time-frame or suddenly inducing
- operation to break the symmetry.
  
 \end_layout
 
@@ -3836,11 +3778,13 @@ Dynamics under different time-frames and symmetries.
 
 \end_inset
 
+Here we study the condition which (
+\begin_inset Formula $\theta_{1},\theta_{2}$
+\end_inset
 
-\end_layout
-
-\begin_layout Standard
-In first plot of Fig.
+) does not change while quenching to another time-frame or suddenly inducing
+ operation to break the symmetry.
+ In first plot of Fig.
 \begin_inset CommandInset ref
 LatexCommand eqref
 reference "fig:10"
@@ -3951,7 +3895,7 @@ noprefix "false"
 \end_inset
 
 .
- CS can also be broken with four steps quantum walk suggested in
+ CS can also be broken with four steps quantum walk suggested in 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "asboth2013bulk"
@@ -4387,7 +4331,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_1.svg
+	filename Figure/sup_1.svg
 	width 8cm
 
 \end_inset
@@ -4512,7 +4456,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_2.svg
+	filename Figure/sup_2.svg
 	width 8cm
 
 \end_inset
@@ -4775,7 +4719,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename /Users/apple/Documents/GitHub/quantumwalk/Figure/sup_3.svg
+	filename Figure/sup_3.svg
 	width 8.6cm
 
 \end_inset
@@ -4803,7 +4747,8 @@ noprefix "false"
 \end_inset
 
 (b) (50 steps).
- (a) is the plot for 
+ a.
+ is the plot for 
 \begin_inset Formula $\varphi=0$
 \end_inset
 
@@ -4811,19 +4756,20 @@ noprefix "false"
 \begin_inset Formula $\theta_{1,2}$
 \end_inset
 
- and scan over another while (b) is the plot for 
+ and scan over another while b.
+ is the plot for 
 \begin_inset Formula $\varphi=\pi$
 \end_inset
 
 .
  Simulation of dynamics with fewer steps.
- In (c), the initial state 
+ In c, the initial state 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
 \end_inset
 
  first builds steady-state in different phase (8 steps) than quenching (at
  the dashed line) to another phase for steady (12 steps).
- In (d), the initial state first builds steady-state in 
+ In d, the initial state first builds steady-state in 
 \begin_inset Formula $(1,0)$
 \end_inset
 
@@ -4837,6 +4783,7 @@ noprefix "false"
 
  (7 steps) for steady.
  The parameters used are same as Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:7"
@@ -4885,6 +4832,7 @@ High dimensional QW
 
 \begin_layout Standard
 Two dimensional QW suggested in Ref.
+ 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "PhysRevA.82.033429,chen2018observation,yan2019strongly,sajid2019creating,li2020two"
@@ -4930,7 +4878,7 @@ where
  here.
  Based on this proposal, CS bound state can exist at the interface of Floquet
  insulators even whose Chern numbers vanish, which is the unique phenomena
- in Periodically driven systems
+ in Periodically driven systems 
 \begin_inset CommandInset citation
 LatexCommand citep
 key "Kitagawa2012,chen2018observation"
