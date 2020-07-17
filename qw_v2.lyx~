@@ -92,7 +92,6 @@ subequations
 \begin_body
 
 \begin_layout Standard
-+=
 \begin_inset Note Note
 status collapsed
 
@@ -893,7 +892,7 @@ literal "false"
 \begin_inset Formula $\nu^{\prime}$
 \end_inset
 
- is the winding of the eigenstate in the first time frame and 
+ is the winding of the eigen-state in the first time frame and 
 \begin_inset Formula $\nu^{\prime\prime}$
 \end_inset
 
@@ -1552,8 +1551,8 @@ literal "false"
 
 \end_inset
 
-, the system will keep on the same eigenstate of the Hamiltonian for all
- the time if its initial state is a eigenstate of the initial Hamiltonian.
+, the system will keep on the same eigen-state of the Hamiltonian for all
+ the time if its initial state is a eigen-state of the initial Hamiltonian.
  In our current experimental setup, we can set 
 \begin_inset Formula $\Omega(t)=\Omega\sin(\frac{\pi t}{\tau})$
 \end_inset
@@ -1605,7 +1604,7 @@ literal "false"
 \uwave default
 \noun default
 \color inherit
- lower eigenstate of the two-band Hamiltonian 
+ lower eigen-state of the two-band Hamiltonian 
 \begin_inset Formula $H(0)$
 \end_inset
 
@@ -1622,13 +1621,13 @@ literal "false"
 \begin_inset Formula $H(t)$
 \end_inset
 
- and stay at the corresponding eigenstate of 
+ and stay at the corresponding eigen-state of 
 \begin_inset Formula $H(\tau)$
 \end_inset
 
 .
  The adiabatic process is not dependent on the number of the phonon if the
- order of the eigenstates is given, see Fig.
+ order of the eigen-states is given, see Fig.
  
 \begin_inset CommandInset ref
 LatexCommand eqref
@@ -1642,8 +1641,8 @@ noprefix "false"
 b for eigen-energy with given parameters during the whole process.
  
 \color red
-Give a level graph of H(t) to show the connection of the corresponding eigenstat
-e
+Give a level graph of H(t) to show the connection of the corresponding eigen-sta
+te
 \color inherit
  In order to speed up adiabatic process, further methods to suppress the
  non-adiabatic excitation 
@@ -2424,7 +2423,7 @@ literal "false"
  The phase diagram is shown in Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
+LatexCommand ref
 reference "fig:3"
 plural "false"
 caps "false"
@@ -2516,7 +2515,7 @@ a).
 \begin_inset Formula $E=\pi/2$
 \end_inset
 
- eigenstate.
+ eigen-state.
  We could deduce several steps as following: when preparing the particle
  onto 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
@@ -2779,7 +2778,7 @@ noprefix "false"
 \begin_inset Formula $E=\pi/2$
 \end_inset
 
- eigenstate contributes to this sharpness as explained in the main tex.
+ eigen-state contributes to this sharpness as explained in the main tex.
 \end_layout
 
 \end_inset
@@ -3761,107 +3760,49 @@ In this paper, we discuss the proposal to realize QW in phonon space with
  of the bound state under different dynamical processes.
  The behaviors of bound state will not be influenced by the velocity when
  evolution between neighbor regions, two eigen-states region and vacuum.
- The bound will only preserve between single eigenstate regions and two
- eigenstates region.
+ The bound will only preserve between single eigen-state regions and two
+ eigen-states region.
  The result will be determined by velocity when considering the evolution
  between two solitons.
  The bound state will remain more when the evolution is more close to quench
  dynamics.
  When introducing disorder, slow non-adiabatic dynamics bound state also
- appear as  increasing of disorder strength.
+ appear as increasing of disorder strength.
  We give reasonable explanation for the conclusion above.
-\end_layout
-
-\begin_layout Standard
-So after the operation, when considering the boundary condition (
-\begin_inset Formula $i=0$
-\end_inset
-
-): equivalently particle experiences first rotation 
-\begin_inset Formula $R(\theta_{1})$
-\end_inset
-
-, then 
-\begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
-\end_inset
-
- will flipping to 
-\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
-\end_inset
-
- under 
-\begin_inset Formula $\left|0\right\rangle \left\langle 0\right|\otimes\left|\uparrow\right\rangle \left\langle \downarrow\right|$
-\end_inset
-
-, while 
-\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
-\end_inset
-
- walks left.
- If 
-\begin_inset Formula $\theta_{2}$
-\end_inset
-
- is set to be zero, the model is exactly same as QW with boundary in Eq.
+ See more details in Sup.
  
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "eq:sup_1"
+reference "sec:C"
 plural "false"
 caps "false"
 noprefix "false"
 
 \end_inset
 
-.
- The minus sign in 
-\begin_inset Formula $S_{x>0}^{\pm}$
-\end_inset
-
- come from step two, three, five, six, where flipping a cycle between 
-\begin_inset Formula $\left|\uparrow\right\rangle $
-\end_inset
-
- and 
-\begin_inset Formula $\left|\downarrow\right\rangle $
-\end_inset
-
- bring this.
- This two sign could be adjusted 
-\begin_inset Formula $\pm$
-\end_inset
-
- with introducing relative 
-\begin_inset Formula $\pi$
-\end_inset
-
- phase between step two and three, step five and six; also a minus sign
- is introduced when step three has a 
-\begin_inset Formula $\pi$
-\end_inset
-
- phase shifting.
+ fewer steps result for real experiment; Sup.
  
-\begin_inset Formula $\phi$
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:D"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
- phase except 
-\begin_inset Formula $0,\pi$
+ the potential to study high dimension QW in our proposal; Sup.
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:E"
+plural "false"
+caps "false"
+noprefix "false"
+
 \end_inset
 
- is realized after step three, when only 
-\begin_inset Formula $\left|0\right\rangle \otimes\left|\uparrow\right\rangle $
-\end_inset
-
- is occupied for 
-\begin_inset Formula $\left|\uparrow\right\rangle $
-\end_inset
-
- with introducing state-dependent phase 
-\begin_inset Formula $\phi$
-\end_inset
-
-.
+ change time frames and symmetry during evolution.
 \end_layout
 
 \begin_layout Section
@@ -3998,7 +3939,7 @@ for
 
  is the normalization parameter.
  It is clear that there exist an exponent decay bound state which is the
- eigenstate of system with eigenenergy 
+ eigen-state of system with eigen-energy 
 \begin_inset Formula $E=0$
 \end_inset
 
@@ -4037,8 +3978,8 @@ The particle is initially prepared on
 \end_inset
 
 .
- The bound state will not be the exactly same state as the eigenstate solved,
- because we do not prepare the particle onto the eigenstate and there will
+ The bound state will not be the exactly same state as the eigen-state solved,
+ because we do not prepare the particle onto the eigen-state and there will
  have possibility of leaking to the bulk.
  We could also take this model into our 
 \begin_inset Quotes eld
@@ -4066,6 +4007,7 @@ cut link
 \end_inset
 
 , which corresponds to a horizontal line in Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:3"
@@ -4219,7 +4161,7 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -4251,7 +4193,7 @@ name "fig:sup_2"
 \begin_inset Formula $E=\pi$
 \end_inset
 
- eigenstate and the second parameter (-
+ eigen-state and the second parameter (-
 \begin_inset Formula $\pi/2,\pi/4$
 \end_inset
 
@@ -4263,7 +4205,7 @@ name "fig:sup_2"
 \begin_inset Formula $E=0$
 \end_inset
 
- eigenstate.
+ eigen-state.
  The initial state is prepared onto 
 \begin_inset Formula $\left|0\right\rangle \otimes\left|\downarrow\right\rangle $
 \end_inset
@@ -4297,7 +4239,7 @@ name "fig:sup_2"
 \begin_inset Formula $E=\pi$
 \end_inset
 
- eigenstate.
+ eigen-state.
 \end_layout
 
 \end_inset
@@ -4312,6 +4254,13 @@ name "fig:sup_2"
 
 \begin_layout Section
 Real Experiment Time-steps
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:C"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4320,6 +4269,7 @@ In the discussion above, all the time-step numbers are set to be large enough
  Here we use the as little as possible to create feasible experiment conditions.
  First of all, when considering observing bound state, it could be known
  from Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:4"
@@ -4332,6 +4282,7 @@ noprefix "false"
 : 10 steps (or less) is enough for some parameters (for example, blue curves)
  to build and observe steady bound state in the experiment.
  In Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:5"
@@ -4342,8 +4293,9 @@ noprefix "false"
 \end_inset
 
 , we also know that 10 steps are enough for distinguishing between different
- sign (eigenenergy) of the steady bound state.
+ sign (eigen-energy) of the steady bound state.
  In Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:sup_3"
@@ -4354,6 +4306,7 @@ noprefix "false"
 \end_inset
 
 , we simulate the result after 10 steps with the same parameters as Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:2"
@@ -4366,10 +4319,10 @@ noprefix "false"
 .
  Basically, boundary between two adjacent phases could be observed while
  sharpness inside one phase (
-\begin_inset Formula $\varepsilon=\pi/2$
+\begin_inset Formula $E=\pi/2$
 \end_inset
 
- eigenstate) could not be seen.
+ eigen-state) could not be seen.
  The boundary will be more clear when increasing the time-steps.
 \end_layout
 
@@ -4378,6 +4331,7 @@ Second, we consider dynamics between different phase.
  It's easy to understand that it will cost more steps for you need to build
  steady-state in one region first then build steady-state in another phase.
  As in Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:7"
@@ -4387,24 +4341,15 @@ noprefix "false"
 
 \end_inset
 
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-, quench and slow but non-adiabatic transition between two phase give similar
+ , quench and slow but non-adiabatic transition between two phase give similar
  results.
  It's expected to be 10 steps or less to build steps then quenching to another
  phase, evolving for another 10 steps for steady.
  Then the results in Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "fig:8"
+reference "fig:sup_3"
 plural "false"
 caps "false"
 noprefix "false"
@@ -4413,18 +4358,7 @@ noprefix "false"
 
  for non-adiabatic with disordering, process between two phase needs to
  be considered.
- Simulation results with fewer steps are shown in Fig.
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:13"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-.
- In a, total 20 steps for quenching between different phases ((
+ In , total 20 steps for quenching between different phases ((
 \begin_inset Formula $\pi/4,\pi/2$
 \end_inset
 
@@ -4437,7 +4371,7 @@ noprefix "false"
 \end_inset
 
 ) for 
-\begin_inset Formula $(1,0)$
+\begin_inset Formula $(0,1)$
 \end_inset
 
  and (
@@ -4445,7 +4379,7 @@ noprefix "false"
 \end_inset
 
 ) for 
-\begin_inset Formula $(0,1)$
+\begin_inset Formula $(1,0)$
 \end_inset
 
 ; (
@@ -4453,7 +4387,7 @@ noprefix "false"
 \end_inset
 
 ) for 
-\begin_inset Formula $(1,0)$
+\begin_inset Formula $(0,1)$
 \end_inset
 
 , (
@@ -4461,7 +4395,7 @@ noprefix "false"
 \end_inset
 
 ) for 
-\begin_inset Formula $(0,1)$
+\begin_inset Formula $(1,0)$
 \end_inset
 
 ).
@@ -4475,11 +4409,11 @@ noprefix "false"
 \begin_inset Formula $P_{\text{Loc}}$
 \end_inset
 
- is shown in this plot.
+ is also shown in this plot.
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -4501,6 +4435,7 @@ name "fig:sup_3"
  Simulation result of localization possibility after 10 steps verse different
  SSQW setting.
  The parameters are same as Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:2"
@@ -4510,7 +4445,7 @@ noprefix "false"
 
 \end_inset
 
-(b) (50 steps).
+b (50 steps).
  a.
  is the plot for 
 \begin_inset Formula $\varphi=0$
@@ -4534,15 +4469,15 @@ noprefix "false"
  first builds steady-state in different phase (8 steps) than quenching (at
  the dashed line) to another phase for steady (12 steps).
  In d, the initial state first builds steady-state in 
-\begin_inset Formula $(1,0)$
+\begin_inset Formula $(0,1)$
 \end_inset
 
  (7 steps) then non-adiabatic transferring to (
-\begin_inset Formula $0,1$
+\begin_inset Formula $1,0$
 \end_inset
 
 ) (6 steps), finally evolve in 
-\begin_inset Formula $(0,1)$
+\begin_inset Formula $(1,0)$
 \end_inset
 
  (7 steps) for steady.
@@ -4551,26 +4486,6 @@ noprefix "false"
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "fig:7"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:8"
-plural "false"
-caps "false"
-noprefix "false"
-
-\end_inset
-
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:8"
 plural "false"
 caps "false"
 noprefix "false"
@@ -4592,6 +4507,13 @@ noprefix "false"
 
 \begin_layout Section
 High dimensional QW
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:D"
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4681,11 +4603,14 @@ literal "false"
 \end_layout
 
 \begin_layout Section
+Dynamics under different time frame and symmetry
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:E"
 
-\emph on
-Dynamics under different time-frames and symmetries
-\emph default
- 
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -4696,9 +4621,10 @@ Here we study the condition which (
 ) does not change while quenching to another time-frame or suddenly inducing
  operation to break the symmetry.
  In first plot of Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "fig:10"
+reference "fig:sup_4"
 plural "false"
 caps "false"
 noprefix "false"
@@ -4714,7 +4640,7 @@ noprefix "false"
 \begin_inset Formula $U(\theta_{2},\theta_{1})$
 \end_inset
 
- 2) change to time frame preserve CS: 
+ 2) change to the first time frame preserve CS: 
 \begin_inset Formula $U_{1}(\theta_{1},\theta_{2})$
 \end_inset
 
@@ -4744,7 +4670,7 @@ noprefix "false"
 \uwave default
 \noun default
 \color inherit
-change to time frame preserve CS:
+change to to the second time frame preserve CS:
 \family roman
 \series medium
 \shape up
@@ -4762,6 +4688,7 @@ change to time frame preserve CS:
 \end_inset
 
  (Eq.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:2"
@@ -4786,9 +4713,10 @@ noprefix "false"
 \noun default
 \color inherit
 focus on break PHS in second plot of Fig.
+ 
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "fig:8"
+reference "fig:sup_4"
 plural "false"
 caps "false"
 noprefix "false"
@@ -4796,6 +4724,7 @@ noprefix "false"
 \end_inset
 
 , which can be easily break with the coin operation mentioned in Eq.
+ 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:6"
@@ -4823,18 +4752,12 @@ literal "false"
 \begin_inset Formula $U_{\text{break2}}=S_{+}R\left(\theta_{1},\chi\right)S_{-}R\left(\theta_{2},\chi\right)$
 \end_inset
 
-.
- In Fig.
-\begin_inset CommandInset ref
-LatexCommand eqref
-reference "fig:10"
-plural "false"
-caps "false"
-noprefix "false"
-
+ (
+\begin_inset Formula $R\left(\theta\right)=\sum_{i}|i\rangle\langle i|\otimes\mathrm{e}^{-\mathrm{i}\sigma_{y}\theta/2-\mathrm{i}\chi\sigma_{z}}$
 \end_inset
 
-, we show the band structure of this two methods, when setting 
+).
+ When setting 
 \begin_inset Formula $\theta_{1}=\pi/4$
 \end_inset
 
@@ -4879,11 +4802,11 @@ noprefix "false"
 \begin_inset Float figure
 wide false
 sideways false
-status collapsed
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename Figure/fig_11.pdf
+	filename Figure/sup_4.pdf
 	scale 25
 
 \end_inset
@@ -4894,7 +4817,7 @@ status collapsed
 \begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
-name "fig:8"
+name "fig:sup_4"
 
 \end_inset
 
