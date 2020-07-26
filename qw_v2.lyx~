@@ -4623,7 +4623,7 @@ Here we study the condition which (
  In first plot of Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
+LatexCommand ref
 reference "fig:sup_4"
 plural "false"
 caps "false"
@@ -4690,7 +4690,7 @@ change to to the second time frame preserve CS:
  (Eq.
  
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "eq:2"
 plural "false"
 caps "false"
@@ -4715,7 +4715,7 @@ noprefix "false"
 focus on break PHS in second plot of Fig.
  
 \begin_inset CommandInset ref
-LatexCommand eqref
+LatexCommand ref
 reference "fig:sup_4"
 plural "false"
 caps "false"
@@ -4726,7 +4726,7 @@ noprefix "false"
 , which can be easily break with the coin operation mentioned in Eq.
  
 \begin_inset CommandInset ref
-LatexCommand ref
+LatexCommand eqref
 reference "eq:6"
 plural "false"
 caps "false"
