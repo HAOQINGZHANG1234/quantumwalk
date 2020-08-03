@@ -15,7 +15,7 @@
    version="1.2"
    id="svg1836"
    sodipodi:docname="fig_2.svg"
-   inkscape:version="1.0beta2 (2b71d25, 2019-12-03)">
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <g
      transform="translate(14.795607,240.92958)"
      id="g2187"
@@ -42,17 +42,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1440"
-     inkscape:window-height="855"
+     inkscape:window-width="3840"
+     inkscape:window-height="2062"
      id="namedview1838"
      showgrid="false"
      units="mm"
-     inkscape:zoom="1.4395858"
-     inkscape:cx="249.7285"
-     inkscape:cy="250.43325"
-     inkscape:window-x="0"
-     inkscape:window-y="23"
-     inkscape:window-maximized="0"
+     inkscape:zoom="4.2107567"
+     inkscape:cx="313.9829"
+     inkscape:cy="230.29275"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg1836" />
   <defs
      id="defs989">
@@ -6523,7 +6523,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3590"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6535,7 +6535,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3596"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6563,14 +6563,15 @@
        x="163.041"
        xlink:href="#glyph1-1-8"
        width="100%"
-       height="100%" />
+       height="100%"
+       transform="translate(319.95033)" />
   </g>
   <g
      transform="translate(-92.22132,-383.03977)"
      id="g3604"
      style="fill:#000000;fill-opacity:1">
     <use
-       transform="translate(1.5,343.81701)"
+       transform="translate(321.45033,343.81701)"
        id="use3602"
        y="174.412"
        x="156.27699"
@@ -6579,7 +6580,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3608"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6591,7 +6592,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3612"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6603,7 +6604,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3616"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6615,7 +6616,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-90.72132,-39.222763)"
+     transform="translate(229.22901,-39.222763)"
      id="g3620"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6804,7 +6805,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3682"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6816,7 +6817,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3686"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6828,7 +6829,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3692"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6847,7 +6848,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(-92.22132,-383.03977)"
+     transform="translate(-411.72132,-383.03977)"
      id="g3696"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6860,7 +6861,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3700"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6872,7 +6873,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3704"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -6884,7 +6885,7 @@
        height="100%" />
   </g>
   <g
-     transform="translate(227.27868,-63.133773)"
+     transform="translate(-92.221321,-63.133773)"
      id="g3708"
      style="fill:#000000;fill-opacity:1">
     <use
@@ -7512,4 +7513,12 @@
        style="fill:#000000;fill-opacity:1"
        id="g2457" />
   </g>
+  <use
+     x="0"
+     y="0"
+     xlink:href="#path10160"
+     id="use1327"
+     transform="translate(-158.32477,1.5)"
+     width="100%"
+     height="100%" />
 </svg>
